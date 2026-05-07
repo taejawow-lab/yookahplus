@@ -1,0 +1,58 @@
+/**
+ * yookahplus.org 디자인 토큰
+ * 자동 생성됨 (2026-05-07T09:41:20.531Z)
+ * 출처: design-tokens.json
+ *
+ * 형식: RGB 채널 (예: "168 216 201")
+ * 사용: rgb(var(--color-primary) / 30%) → bg-primary/30 같은 Tailwind alpha 변형 가능
+ */
+
+:root {
+  --color-background: 255 250 245;
+  --color-foreground: 31 31 31;
+
+  --color-primary: 168 216 201;
+  --color-primary-foreground: 31 58 54;
+
+  --color-accent: 244 160 154;
+  --color-accent-foreground: 58 31 29;
+
+  --color-muted: 250 245 240;
+  --color-muted-foreground: 71 71 71;
+
+  --color-card: 255 250 245;
+  --color-card-foreground: 31 31 31;
+
+  --color-border: 111 111 111;
+  --color-input: 106 106 106;
+  --color-ring: 168 216 201;
+
+  --font-heading: "Pretendard", system-ui, sans-serif;
+  --font-body: "Noto Sans KR", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  --radius: 12px;
+
+  --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme='dark'] {
+  --color-background: 26 31 29;
+  --color-foreground: 240 240 240;
+
+  --color-primary: 125 184 168;
+  --color-primary-foreground: 31 58 54;
+
+  --color-accent: 244 160 154;
+  --color-accent-foreground: 58 31 29;
+
+  --color-muted: 34 39 37;
+  --color-muted-foreground: 210 210 210;
+
+  --color-card: 31 36 34;
+  --color-card-foreground: 240 240 240;
+
+  --color-border: 180 180 180;
+  --color-input: 175 175 175;
+}

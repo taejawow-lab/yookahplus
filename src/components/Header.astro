@@ -1,0 +1,31 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
+const navItems = [
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  { label: 'Editorial Process', href: '/editorial-process' },
+];
+---
+
+<header class="sticky top-0 z-50 glass border-b border-border">
+  <nav class="container mx-auto px-4 h-16 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2 font-bold text-xl">
+      <img src="/logo.svg" alt={siteName} class="h-8 w-8" />
+      <span style="font-family: var(--font-heading)">{siteName}</span>
+    </a>
+
+    <div class="flex items-center gap-1">
+      {navItems.map((item) => (
+        <a
+          href={item.href}
+          class="px-4 py-2 rounded-md text-sm font-medium transition-colors hover:bg-muted"
+        >
+          {item.label}
+        </a>
+      ))}
+      <ThemeToggle />
+    </div>
+  </nav>
+</header>
