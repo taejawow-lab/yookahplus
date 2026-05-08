@@ -7,43 +7,116 @@ export interface Props {
   ctaHref?: string;
 }
 
+const envIllustration = import.meta.env.PUBLIC_HAS_HERO_ILLUSTRATION === 'true'
+  ? '/images/illustrations/hero.png'
+  : undefined;
+
+const edition = import.meta.env.PUBLIC_SITE_EDITION || '';
+const tagline = import.meta.env.PUBLIC_SITE_TAGLINE || '';
+
 const {
   title,
   subtitle,
-  illustration = '/images/hero-illustration.png',
-  ctaText = 'Browse Articles',
+  illustration = envIllustration,
+  ctaText = 'Read latest →',
   ctaHref = '#latest',
 } = Astro.props;
+
+// 현재 날짜 포맷 (editorial dateline)
+const today = new Date();
+const dateline = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toUpperCase();
 ---
 
-<section class="relative overflow-hidden bg-gradient-to-b from-background to-muted/30">
-  <div class="container mx-auto px-4 py-16 md:py-24">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-      <div class="text-center md:text-left">
+<section class="relative overflow-hidden bg-background">
+  <!-- 미세 격자 배경 (매거진 paper 느낌) -->
+  <div class="absolute inset-0 pointer-events-none opacity-[0.03]" aria-hidden="true"
+       style="background-image: linear-gradient(to right, rgb(var(--color-foreground)) 1px, transparent 1px), linear-gradient(to bottom, rgb(var(--color-foreground)) 1px, transparent 1px); background-size: 64px 64px;"></div>
+
+  <!-- accent 색상 거대 블록 (asymmetric) -->
+  <div class="absolute -top-24 -right-32 w-[520px] h-[520px] rounded-full pointer-events-none"
+       style="background: radial-gradient(circle, rgb(var(--color-accent) / 0.18) 0%, transparent 70%);"
+       aria-hidden="true"></div>
+  <div class="absolute -bottom-32 -left-24 w-[420px] h-[420px] rounded-full pointer-events-none"
+       style="background: radial-gradient(circle, rgb(var(--color-primary) / 0.20) 0%, transparent 70%);"
+       aria-hidden="true"></div>
+
+  <div class="container mx-auto px-6 md:px-10 pt-12 md:pt-16 pb-20 md:pb-32 relative">
+    <!-- editorial top bar — edition · dateline · 가는 가로선 -->
+    <div class="flex items-center gap-4 text-xs uppercase tracking-[0.18em] text-muted-foreground mb-12 md:mb-20">
+      {edition && (
+        <span class="font-mono">{edition}</span>
+      )}
+      <span class="flex-1 h-px bg-border"></span>
+      <span class="font-mono">{dateline}</span>
+    </div>
+
+    <!-- asymmetric 12-col grid: 텍스트 8col + 일러스트 5col with 1col 겹침 -->
+    <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 items-start">
+      <!-- 거대 헤딩 영역 (col 1-9, illustration과 의도적 겹침) -->
+      <div class="col-span-12 md:col-span-9 relative z-10">
+        <!-- ITEM № 표시 (매거진 디테일) -->
+        <p class="text-xs uppercase tracking-[0.2em] text-accent font-mono mb-4 md:mb-6">
+          № 01 · LEAD STORY
+        </p>
+
+        <!-- oversized display heading — 화면 폭의 절반 차지 -->
         <h1
-          class="text-4xl md:text-6xl font-bold mb-6 text-balance"
-          style="font-family: var(--font-heading)"
+          class="font-bold text-[12vw] md:text-[8vw] lg:text-[7vw] leading-[0.95] tracking-[-0.02em] text-balance mb-8 md:mb-10"
+          style="font-family: var(--font-display);"
         >
           {title}
         </h1>
-        <p class="text-xl text-muted-foreground text-pretty mb-8 max-w-2xl">
+
+        <!-- subtitle: 큰 sans-serif body, 분명한 leading -->
+        <p class="text-lg md:text-xl lg:text-2xl text-foreground/75 max-w-2xl leading-[1.4] mb-10 md:mb-12 font-light">
           {subtitle}
         </p>
-        <a href={ctaHref} class="btn-primary">
-          {ctaText}
-          <svg class="ml-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7" />
+
+        <!-- CTA + 작은 사이드 메타 -->
+        <div class="flex flex-wrap items-center gap-6">
+          <a href={ctaHref} class="btn-primary group inline-flex items-center gap-3 px-7 py-3.5 text-sm uppercase tracking-[0.15em] font-semibold">
+            {ctaText}
+          </a>
+          {tagline && (
+            <span class="text-xs uppercase tracking-[0.18em] text-muted-foreground font-mono">
+              · {tagline}
+            </span>
+          )}
+        </div>
+      </div>
+
+      <!-- 일러스트 (col 8-12, 텍스트와 1col 겹침으로 layered look) -->
+      <div class="col-span-12 md:col-span-5 md:-ml-12 lg:-ml-20 mt-10 md:-mt-8 relative">
+        {illustration ? (
+          <div class="relative">
+            <!-- 일러스트 frame 효과 — 살짝 회전 + 그림자 -->
+            <div class="absolute inset-0 bg-accent/10 -rotate-1 rounded-sm" aria-hidden="true"></div>
+            <img
+              src={illustration}
+              alt=""
+              class="relative w-full h-auto rounded-sm shadow-[0_30px_80px_-30px_rgba(0,0,0,0.25)] rotate-[1deg] transition-transform hover:rotate-0 duration-700"
+              loading="eager"
+            />
+            <!-- 일러스트 caption (매거진 디테일) -->
+            <p class="absolute -bottom-7 right-0 text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-mono">
+              ↑ Cover illustration
+            </p>
+          </div>
+        ) : (
+          <!-- fallback: minimalist 추상 SVG -->
+          <svg class="w-full max-w-md h-auto rotate-[2deg]" viewBox="0 0 400 400" fill="none" aria-hidden="true">
+            <circle cx="200" cy="200" r="160" fill="rgb(var(--color-primary) / 0.12)"/>
+            <circle cx="160" cy="160" r="100" fill="rgb(var(--color-accent) / 0.18)"/>
+            <circle cx="240" cy="240" r="60" fill="rgb(var(--color-primary) / 0.25)"/>
           </svg>
-        </a>
+        )}
       </div>
-      <div class="flex justify-center">
-        <img
-          src={illustration}
-          alt=""
-          class="max-w-md w-full h-auto"
-          loading="eager"
-        />
-      </div>
+    </div>
+
+    <!-- 하단 thin label rail -->
+    <div class="mt-16 md:mt-24 pt-6 border-t border-border flex items-center justify-between text-xs uppercase tracking-[0.2em] text-muted-foreground font-mono">
+      <span>Editorial · Curated · Cited</span>
+      <span class="hidden md:inline">Scroll to read ↓</span>
     </div>
   </div>
 </section>
