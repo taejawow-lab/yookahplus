@@ -66,7 +66,7 @@ const faqSchema = faq.length > 0 ? {
   })),
 } : null;
 
-const siteUrlBC = import.meta.env.PUBLIC_SITE_URL || 'https://yookahplus.org';
+const siteUrlBC = (Astro.site ? Astro.site.toString().replace(/\/$/, '') : (import.meta.env.PUBLIC_SITE_URL || 'https://yookahplus.org'));
 const siteNameBC = import.meta.env.PUBLIC_SITE_NAME || 'Editorial';
 const postUrlBC = `${siteUrlBC}${Astro.url.pathname}`;
 const breadcrumbSchema = {
