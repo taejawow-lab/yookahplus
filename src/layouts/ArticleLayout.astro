@@ -157,7 +157,7 @@ const locale = localeMap[lang] || 'en-US';
 
     {internalLinks.length > 0 && (
       <section class="mt-12 pt-8 border-t border-border">
-        <h2 class="text-2xl font-bold mb-4">{t.related}</h2>
+        <h2 class="text-2xl font-bold mb-4">{t.related || 'Related Reading'}</h2>
         <ul class="space-y-2">
           {internalLinks.map((link) => (
             <li>
