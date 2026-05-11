@@ -21,11 +21,12 @@ const affiliateDisclosure = lang === 'ko'
        style="background-image: linear-gradient(to right, rgb(var(--color-foreground)) 1px, transparent 1px); background-size: 64px 100%;"></div>
 
   <div class="container mx-auto px-6 md:px-10 pt-20 md:pt-28 pb-12 relative">
-    {/* 荑좏뙜 ?뚰듃?덉뒪 carousel (Korean lang only) */}
+    {/* 쿠팡 파트너스 carousel (Korean lang only) */}
     {lang === 'ko' && (
-      <section class="mb-16 md:mb-20 pb-12 border-b border-border" aria-label="荑좏뙜?뚰듃?덉뒪 異붿쿇 ?곹뭹">
+      <section class="mb-16 md:mb-20 pb-12 border-b border-border" aria-label="쿠팡 파트너스 추천 상품">
         <p class="text-[10px] uppercase tracking-[0.25em] text-muted-foreground font-mono mb-4">
-          쨋 荑좏뙜 ?뚰듃?덉뒪 異붿쿇 ??異쒖궛쨌?≪븘 踰좎뒪??        </p>
+          ¶ 쿠팡 파트너스 추천 · 출산 · 육아 베스트
+        </p>
         <div class="flex justify-center overflow-x-auto">
           <script is:inline src="https://ads-partners.coupang.com/g.js"></script>
           <script is:inline>
@@ -33,10 +34,12 @@ const affiliateDisclosure = lang === 'ko'
           </script>
         </div>
         <p class="text-xs text-muted-foreground mt-4 text-center">
-          ???ъ뒪?낆? 荑좏뙜?뚰듃?덉뒪 ?쒕룞???쇳솚?쇰줈, ?쇱젙?≪쓽 ?섏닔猷뚮? ?쒓났諛쏆뒿?덈떎.
+          이 포스팅은 쿠팡파트너스 활동의 일환으로, 일정액의 수수료를 제공받습니다.
         </p>
       </section>
     )}
+
+}
 
     <!-- masthead — 거대 wordmark -->
     <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 mb-16 md:mb-20 items-end">
