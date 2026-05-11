@@ -42,10 +42,15 @@ const labels = {
   cons: lang === 'ko' ? '단점' : lang === 'ja' ? '短所' : 'Cons',
   price: lang === 'ko' ? '가격대' : lang === 'ja' ? '価格帯' : 'Price',
 };
+
+// Grid layout depends on image presence — single column when no image to avoid empty 1fr cell
+const gridClass = image
+  ? 'grid grid-cols-1 md:grid-cols-[180px_1fr] gap-5 md:gap-6'
+  : 'grid grid-cols-1 gap-5 md:gap-6';
 ---
 
 <div class="product-box my-8 rounded-xl border border-border bg-card/40 p-5 md:p-6 not-prose">
-  <div class="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-5 md:gap-6">
+  <div class={gridClass}>
     {image && (
       <div class="aspect-square overflow-hidden rounded-lg bg-muted/30">
         <img src={image} alt={name} width="180" height="180" loading="lazy" decoding="async" class="w-full h-full object-cover" />
