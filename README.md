@@ -53,4 +53,4 @@ master-template/
 ../scripts/setup_site.sh <new-domain>
 ```
 
-<!-- rebuild: 2026-05-13T15:51:36.1998310+09:00 -->
+<!-- rebuild: 2026-05-13T16:13:17.9019594+09:00 -->
