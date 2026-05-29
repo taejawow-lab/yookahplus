@@ -1,0 +1,473 @@
+{
+  "generated_at_utc": "2026-05-29T10:15:24Z",
+  "site": "yookahplus",
+  "slug": "yua-subun-seoltang-eumryo-juligi-2026",
+  "post_url_path": "/posts/yua-subun-seoltang-eumryo-juligi-2026/",
+  "article": "src/content/posts/yua-subun-seoltang-eumryo-juligi-2026.mdx",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13-direct",
+  "gate": {
+    "available": true,
+    "reason": "parent_gate_passed; direct_comfyui_health_rechecked",
+    "manual_pause": false,
+    "endpoint": "http://192.168.50.29:8188",
+    "direct_system_stats": {
+      "system": {
+        "os": "win32",
+        "ram_total": 68466884608,
+        "ram_free": 54247153664,
+        "comfyui_version": "0.20.1",
+        "required_frontend_version": "1.43.17",
+        "installed_templates_version": "0.9.72",
+        "required_templates_version": "0.9.72",
+        "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+        "pytorch_version": "2.6.0+cu124",
+        "embedded_python": false,
+        "argv": [
+          "main.py",
+          "--listen",
+          "0.0.0.0",
+          "--port",
+          "8188",
+          "--enable-cors-header",
+          "*"
+        ]
+      },
+      "devices": [
+        {
+          "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+          "type": "cuda",
+          "index": 0,
+          "vram_total": 25756696576,
+          "vram_free": 17098519522,
+          "torch_vram_total": 6979321856,
+          "torch_vram_free": 31896546
+        }
+      ]
+    }
+  },
+  "queue_at_start": {
+    "queue_running": [
+      [
+        60,
+        "090c8441-4d1b-46c6-8355-1734fa27ee64",
+        {
+          "1": {
+            "class_type": "CheckpointLoaderSimple",
+            "inputs": {
+              "ckpt_name": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"
+            }
+          },
+          "2": {
+            "class_type": "CLIPTextEncode",
+            "inputs": {
+              "clip": [
+                "1",
+                1
+              ],
+              "text": "realistic household investing desk with two plain unlabeled glass jars, closed blank folder, glasses, coins, laptop screen dark and blank in background, no papers with writing, no labels, no readable text, 16:9 composition, natural editorial photography, high detail, topic accurate, realistic materials, no text in the scene"
+            }
+          },
+          "3": {
+            "class_type": "CLIPTextEncode",
+            "inputs": {
+              "clip": [
+                "1",
+                1
+              ],
+              "text": "text, letters, words, numbers, logo, watermark, signature, brand marks, UI screenshot, readable screen text, calendar grid, distorted objects, extra limbs, bad hands, bad anatomy, fake labels, low quality, blurry, cartoon, placeholder, generic stock image"
+            }
+          },
+          "4": {
+            "class_type": "EmptyLatentImage",
+            "inputs": {
+              "width": 1536,
+              "height": 864,
+              "batch_size": 1
+            }
+          },
+          "5": {
+            "class_type": "KSampler",
+            "inputs": {
+              "model": [
+                "1",
+                0
+              ],
+              "positive": [
+                "2",
+                0
+              ],
+              "negative": [
+                "3",
+                0
+              ],
+              "latent_image": [
+                "4",
+                0
+              ],
+              "seed": 202605291405,
+              "steps": 24,
+              "cfg": 5.6,
+              "sampler_name": "dpmpp_2m",
+              "scheduler": "karras",
+              "denoise": 1.0
+            }
+          },
+          "6": {
+            "class_type": "VAEDecode",
+            "inputs": {
+              "samples": [
+                "5",
+                0
+              ],
+              "vae": [
+                "1",
+                2
+              ]
+            }
+          },
+          "7": {
+            "class_type": "SaveImage",
+            "inputs": {
+              "images": [
+                "6",
+                0
+              ],
+              "filename_prefix": "hermes_tml_roth_20260529"
+            }
+          }
+        },
+        {
+          "client_id": "hermes-techmoneylab-roth-20260529",
+          "create_time": 1780049719968
+        },
+        [
+          "7"
+        ]
+      ]
+    ],
+    "queue_pending": []
+  },
+  "system_stats": {
+    "system": {
+      "os": "win32",
+      "ram_total": 68466884608,
+      "ram_free": 54100111360,
+      "comfyui_version": "0.20.1",
+      "required_frontend_version": "1.43.17",
+      "installed_templates_version": "0.9.72",
+      "required_templates_version": "0.9.72",
+      "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "pytorch_version": "2.6.0+cu124",
+      "embedded_python": false,
+      "argv": [
+        "main.py",
+        "--listen",
+        "0.0.0.0",
+        "--port",
+        "8188",
+        "--enable-cors-header",
+        "*"
+      ]
+    },
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17013266770,
+        "torch_vram_total": 7449083904,
+        "torch_vram_free": 416405842
+      }
+    ]
+  },
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "workflow_summary": "Direct ComfyUI API, SDXL checkpoint, KSampler dpmpp_2m/karras, 1536x864 PNG outputs",
+  "assets": [
+    {
+      "file": "public/images/illustrations/ykp-toddler-hydration-2026-hero.png",
+      "filename": "ykp-toddler-hydration-2026-hero.png",
+      "seed": 202605290900,
+      "prompt": "realistic editorial photo of toddler water habit setup at family dining table, clear small cup, parent hand offering water, fresh fruit in background, safe clean home, no text",
+      "prompt_id": "ed798d68-215a-4012-990b-e55e078ea30e",
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 24,
+      "cfg": 5.4,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "negative_prompt": "text, words, letters, watermark, logo, brand name, readable labels, readable screen, medical device, hospital, needle, crying child, distorted hands, extra fingers, bad anatomy, low detail, blurry, jpeg artifacts, placeholder, generic stock photo cliche, unsafe feeding, choking hazard",
+      "comfy_output": {
+        "filename": "hermes_yookahplus_daily_20260529_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1528659,
+      "mean_rgb": [
+        160.69,
+        146.22,
+        119.36
+      ],
+      "stddev_rgb": [
+        49.17,
+        59.4,
+        67.36
+      ]
+    },
+    {
+      "file": "public/images/illustrations/ykp-toddler-hydration-2026-01.png",
+      "filename": "ykp-toddler-hydration-2026-01.png",
+      "seed": 202605290901,
+      "prompt": "close realistic photo of child size water bottle and small open cup beside lunch plate with vegetables and rice, no labels, hydration routine",
+      "prompt_id": "9f0b1501-bbe1-48c2-9e05-2875ffe38f99",
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 24,
+      "cfg": 5.4,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "negative_prompt": "text, words, letters, watermark, logo, brand name, readable labels, readable screen, medical device, hospital, needle, crying child, distorted hands, extra fingers, bad anatomy, low detail, blurry, jpeg artifacts, placeholder, generic stock photo cliche, unsafe feeding, choking hazard",
+      "comfy_output": {
+        "filename": "hermes_yookahplus_daily_20260529_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1605593,
+      "mean_rgb": [
+        145.35,
+        134.53,
+        111.1
+      ],
+      "stddev_rgb": [
+        58.93,
+        61.89,
+        65.34
+      ]
+    },
+    {
+      "file": "public/images/illustrations/ykp-toddler-hydration-2026-02.png",
+      "filename": "ykp-toddler-hydration-2026-02.png",
+      "seed": 202605290902,
+      "prompt": "parent checking toddler for dehydration gently after outdoor play, shaded park bench, water cup nearby, calm practical parenting scene",
+      "prompt_id": "19091b03-30ce-4ad6-948c-3e6a700075cd",
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 24,
+      "cfg": 5.4,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "negative_prompt": "text, words, letters, watermark, logo, brand name, readable labels, readable screen, medical device, hospital, needle, crying child, distorted hands, extra fingers, bad anatomy, low detail, blurry, jpeg artifacts, placeholder, generic stock photo cliche, unsafe feeding, choking hazard",
+      "comfy_output": {
+        "filename": "hermes_yookahplus_daily_20260529_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 2054958,
+      "mean_rgb": [
+        126.14,
+        126.53,
+        82.2
+      ],
+      "stddev_rgb": [
+        59.04,
+        54.04,
+        46.81
+      ]
+    },
+    {
+      "file": "public/images/illustrations/ykp-toddler-hydration-2026-03.png",
+      "filename": "ykp-toddler-hydration-2026-03.png",
+      "seed": 202605290903,
+      "prompt": "kitchen counter with plain water pitcher, milk cup, whole fruit, sugary drink bottles turned away with no labels, healthy drink choice visual",
+      "prompt_id": "2248a493-0a71-478b-8dfb-6f0e131fec0d",
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 24,
+      "cfg": 5.4,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "negative_prompt": "text, words, letters, watermark, logo, brand name, readable labels, readable screen, medical device, hospital, needle, crying child, distorted hands, extra fingers, bad anatomy, low detail, blurry, jpeg artifacts, placeholder, generic stock photo cliche, unsafe feeding, choking hazard",
+      "comfy_output": {
+        "filename": "hermes_yookahplus_daily_20260529_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1397820,
+      "mean_rgb": [
+        128.66,
+        121.73,
+        98.6
+      ],
+      "stddev_rgb": [
+        50.2,
+        53.35,
+        56.08
+      ]
+    },
+    {
+      "file": "public/images/illustrations/ykp-toddler-hydration-2026-04.png",
+      "filename": "ykp-toddler-hydration-2026-04.png",
+      "seed": 202605290904,
+      "prompt": "family picnic in shade with toddler drinking water from cup, sun hat, stroller, safe summer hydration scene, no text",
+      "prompt_id": "367cfc27-0ddf-4b66-96f5-606e797241a8",
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 24,
+      "cfg": 5.4,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "negative_prompt": "text, words, letters, watermark, logo, brand name, readable labels, readable screen, medical device, hospital, needle, crying child, distorted hands, extra fingers, bad anatomy, low detail, blurry, jpeg artifacts, placeholder, generic stock photo cliche, unsafe feeding, choking hazard",
+      "comfy_output": {
+        "filename": "hermes_yookahplus_daily_20260529_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 2139371,
+      "mean_rgb": [
+        118.56,
+        123.46,
+        89.26
+      ],
+      "stddev_rgb": [
+        65.45,
+        61.97,
+        51.01
+      ]
+    },
+    {
+      "file": "public/images/illustrations/ykp-toddler-hydration-2026-05.png",
+      "filename": "ykp-toddler-hydration-2026-05.png",
+      "seed": 202605290905,
+      "prompt": "evening routine table with blank hydration log notebook, water cup, toothbrush, parent preparing next day bottle, no readable writing",
+      "prompt_id": "6edbed1c-6c37-49f7-9dc7-54cfc94d2140",
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "workflow": "CheckpointLoaderSimple -> CLIPTextEncode -> EmptyLatentImage -> KSampler -> VAEDecode -> SaveImage",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 24,
+      "cfg": 5.4,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "negative_prompt": "text, words, letters, watermark, logo, brand name, readable labels, readable screen, medical device, hospital, needle, crying child, distorted hands, extra fingers, bad anatomy, low detail, blurry, jpeg artifacts, placeholder, generic stock photo cliche, unsafe feeding, choking hazard",
+      "comfy_output": {
+        "filename": "hermes_yookahplus_daily_20260529_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "bytes": 1190157,
+      "mean_rgb": [
+        137.99,
+        121.74,
+        92.96
+      ],
+      "stddev_rgb": [
+        75.58,
+        70.18,
+        63.04
+      ]
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/yookahplus-daily-20260529-contact-sheet.jpg",
+  "source_validation": [
+    {
+      "url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html",
+      "status": 200,
+      "final_url": "https://www.cdc.gov/healthy-weight-growth/water-healthy-drinks/index.html"
+    },
+    {
+      "url": "https://www.cdc.gov/healthy-weight-growth/healthy-eating/index.html",
+      "status": 200,
+      "final_url": "https://www.cdc.gov/healthy-weight-growth/healthy-eating/index.html"
+    },
+    {
+      "url": "https://www.cdc.gov/healthy-weight-growth/be-sugar-smart/index.html",
+      "status": 200,
+      "final_url": "https://www.cdc.gov/healthy-weight-growth/be-sugar-smart/index.html"
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/foods/index.html",
+      "status": 200,
+      "final_url": "https://www.cdc.gov/food-safety/foods/index.html"
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/prevention/index.html",
+      "status": 200,
+      "final_url": "https://www.cdc.gov/food-safety/prevention/index.html"
+    },
+    {
+      "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Dehydration.aspx",
+      "status": 200,
+      "final_url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Dehydration.aspx"
+    },
+    {
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Diarrhea.aspx",
+      "status": 200,
+      "final_url": "https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Diarrhea.aspx"
+    },
+    {
+      "url": "https://www.healthychildren.org/English/tips-tools/symptom-checker/Pages/symptomviewer.aspx?symptom=Diarrhea",
+      "status": 200,
+      "final_url": "https://www.healthychildren.org/English/tips-tools/symptom-checker/Pages/symptomviewer.aspx?symptom=Diarrhea"
+    }
+  ],
+  "visual_qa": {
+    "status": "passed",
+    "review_artifact": "/home/taekm33/blog-ops/16-sites/reports/yookahplus-daily-20260529-contact-sheet.jpg",
+    "evidence": [
+      "hero: parent/toddler at table with water and fruit; no logos/readable text; realistic safe scene",
+      "01: water bottle/cup with balanced meal; no labels/readable text; relevant hydration routine",
+      "02: shaded park child check with water; no text/logos; safe calm scene",
+      "03: pitchers/cups/fruit illustrating water-vs-sugary-drink choice; no labels/text; acceptable",
+      "04: shaded picnic/stroller hydration scene; no text/logos; safe outdoor context",
+      "05: blank routine notebook with water bottle/cup; no readable writing; relevant routine planning"
+    ],
+    "automated_checks": "all files are raster PNG, 1536x864, nontrivial byte sizes and color variance recorded"
+  }
+}
