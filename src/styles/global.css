@@ -2,6 +2,7 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700;6..72,800&family=Spline+Sans+Mono:wght@500;700&display=swap");
 
 @import './tokens.css';
 
@@ -192,5 +193,51 @@
 @layer utilities {
   .focus-ring-soft {
     @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring;
+  }
+}
+
+
+/* Yookahplus renewal client features */
+@layer base {
+  html:lang(ko), body {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+}
+
+@layer components {
+  .brand-mark {
+    @apply inline-flex h-11 w-11 shrink-0 items-center justify-center text-primary transition-transform duration-300 group-hover:-rotate-3 group-hover:scale-105;
+  }
+
+  .reading-progress {
+    @apply fixed left-0 right-0 top-0 z-[70] h-1 bg-transparent;
+  }
+
+  .reading-progress span {
+    @apply block h-full bg-primary shadow-[0_0_18px_rgb(var(--color-primary)/0.35)];
+    width: 0;
+    transition: width 120ms linear;
+  }
+
+  .ykp-check-item {
+    @apply relative list-none rounded-2xl border border-border/60 bg-card/70 px-4 py-3 pl-12 shadow-sm;
+  }
+
+  .ykp-check-input {
+    @apply absolute left-4 top-4 h-5 w-5 rounded border-border accent-primary;
+  }
+
+  .ykp-check-item.is-checked {
+    @apply bg-accent/10 text-muted-foreground line-through decoration-primary/60;
+  }
+
+  .renewal-panel {
+    @apply rounded-[1.5rem] border border-border/70 bg-card/90 p-5 shadow-sm sm:p-7;
+    background-image: linear-gradient(135deg, rgb(var(--color-primary) / 0.07), transparent 40%);
+  }
+
+  .renewal-chip {
+    @apply inline-flex min-h-10 items-center rounded-full border border-border/70 bg-background px-4 text-sm font-bold text-foreground/75 shadow-sm transition hover:border-primary/50 hover:bg-primary/10;
   }
 }

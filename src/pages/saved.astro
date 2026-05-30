@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('posts'))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6)
+  .map((post) => ({
+    title: post.data.title,
+    description: post.data.description,
+    category: post.data.category || '육아',
+    url: `/posts/${post.slug}`,
+    date: post.data.pubDate?.toISOString?.().slice(0, 10) || '',
+  }));
+---
+
+<BaseLayout title="보관함" description="이 기기에 저장한 육아플러스 글을 다시 여는 개인 보관함입니다.">
+  <section class="container mx-auto px-6 md:px-10 py-16 md:py-24">
+    <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 mb-12 md:mb-16 border-b border-border pb-12">
+      <div class="col-span-12 md:col-span-5">
+        <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-accent mb-3">¶ Saved</p>
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-[-0.02em]" style="font-family: var(--font-display);">보관함</h1>
+        <p class="text-sm uppercase tracking-[0.15em] font-mono text-foreground/60 mt-4">local-only reading list</p>
+      </div>
+      <div class="col-span-12 md:col-span-6 md:col-start-7 md:pt-4">
+        <p class="text-base md:text-lg text-foreground/70 leading-relaxed max-w-xl">
+          글 상세의 “보관함에 저장” 버튼으로 모아둔 글을 이 브라우저 안에서만 보여줍니다. 계정으로 전송하지 않고 localStorage에 저장됩니다.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="/posts/" class="renewal-chip">전체 글 보기</a>
+          <a href="/search/" class="renewal-chip">검색하기</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="saved-empty" class="renewal-panel text-center">
+      <p class="text-2xl font-bold" style="font-family: var(--font-display);">아직 저장한 글이 없어요.</p>
+      <p class="mt-3 text-foreground/65">아래 추천 글이나 최신 글을 읽다가 마음에 드는 글을 저장해 보세요.</p>
+    </div>
+
+    <div id="saved-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8" aria-live="polite"></div>
+
+    <section class="mt-16">
+      <div class="mb-6 flex items-end justify-between gap-4">
+        <h2 class="text-3xl font-bold" style="font-family: var(--font-display);">최근 글에서 시작하기</h2>
+        <a href="/posts/" class="text-sm font-bold text-primary">전체 보기 →</a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {posts.map((post) => (
+          <a href={post.url} class="editorial-card block rounded-[1.35rem] border border-border/70 bg-card/88 p-5 shadow-sm transition hover:-translate-y-1 hover:border-primary/40">
+            <p class="text-[10px] uppercase tracking-[0.2em] font-mono text-accent mb-3">{post.category} · {post.date}</p>
+            <h3 class="text-xl font-bold leading-snug" style="font-family: var(--font-display);">{post.title}</h3>
+            <p class="mt-3 text-sm leading-relaxed text-foreground/65">{post.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <script is:inline>
+      (() => {
+        const key = 'ykp:savedArticles';
+        const list = document.getElementById('saved-list');
+        const empty = document.getElementById('saved-empty');
+        const read = () => {
+          try { return JSON.parse(localStorage.getItem(key) || '[]'); }
+          catch { return []; }
+        };
+        const write = (items) => localStorage.setItem(key, JSON.stringify(items));
+        const escapeHtml = (value) => String(value || '').replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
+        const render = () => {
+          const items = read();
+          if (!list || !empty) return;
+          empty.hidden = items.length > 0;
+          list.innerHTML = items.map((item) => `
+            <article class="editorial-card rounded-[1.35rem] border border-border/70 bg-card/88 p-5 shadow-sm">
+              <p class="text-[10px] uppercase tracking-[0.2em] font-mono text-accent mb-3">${escapeHtml(item.category || '육아')} · 저장됨</p>
+              <h2 class="text-xl font-bold leading-snug" style="font-family: var(--font-display);"><a href="${escapeHtml(item.url)}">${escapeHtml(item.title)}</a></h2>
+              <p class="mt-3 text-sm leading-relaxed text-foreground/65">${escapeHtml(item.description || '')}</p>
+              <button type="button" class="mt-5 text-sm font-bold text-primary" data-remove-saved="${escapeHtml(item.url)}">삭제</button>
+            </article>
+          `).join('');
+          list.querySelectorAll('[data-remove-saved]').forEach((button) => {
+            button.addEventListener('click', () => {
+              write(read().filter((entry) => entry.url !== button.dataset.removeSaved));
+              render();
+            });
+          });
+        };
+        render();
+      })();
+    </script>
+  </section>
+</BaseLayout>

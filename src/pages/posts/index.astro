@@ -25,7 +25,7 @@ const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE));
 const pagePosts = posts.slice(0, POSTS_PER_PAGE);
 ---
 
-<BaseLayout title="All Posts" description={`Complete archive of all ${posts.length} posts on ${siteName}`}>
+<BaseLayout title="전체 글" description={`${siteName}의 전체 글 ${posts.length}개를 최신순으로 모았습니다.`}>
   <section class="container mx-auto px-6 md:px-10 py-16 md:py-24">
 
     <!-- editorial header -->
@@ -33,19 +33,19 @@ const pagePosts = posts.slice(0, POSTS_PER_PAGE);
       <div class="col-span-12 md:col-span-4">
         <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-accent mb-3">¶ Archive</p>
         <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-[-0.02em]" style="font-family: var(--font-display);">
-          All Posts
+          전체 글
         </h1>
         <p class="text-sm uppercase tracking-[0.15em] font-mono text-foreground/60 mt-4">
-          {posts.length} articles · Page 1 of {totalPages}
+          {posts.length}개 글 · {totalPages}쪽 중 1쪽
         </p>
       </div>
       <div class="col-span-12 md:col-span-7 md:col-start-6 md:pt-4">
         <p class="text-base md:text-lg text-foreground/70 leading-relaxed max-w-xl">
-          Every article on {siteName}, sorted by most recent. Use numbered pages, category browsing, or search to find older guides quickly.
+          {siteName}의 모든 글을 최신순으로 정리했습니다. 카테고리, 검색, 페이지 이동으로 필요한 육아 기준을 빠르게 찾아보세요.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a href="/categories/" class="inline-block text-xs uppercase tracking-[0.15em] font-mono border border-border px-3 py-1.5 hover:border-foreground hover:bg-foreground hover:text-background transition-colors">Browse categories</a>
-          <a href="/search/" class="inline-block text-xs uppercase tracking-[0.15em] font-mono border border-border px-3 py-1.5 hover:border-foreground hover:bg-foreground hover:text-background transition-colors">Search articles</a>
+          <a href="/categories/" class="inline-block text-xs uppercase tracking-[0.15em] font-mono border border-border px-3 py-1.5 hover:border-foreground hover:bg-foreground hover:text-background transition-colors">카테고리 보기</a>
+          <a href="/search/" class="inline-block text-xs uppercase tracking-[0.15em] font-mono border border-border px-3 py-1.5 hover:border-foreground hover:bg-foreground hover:text-background transition-colors">글 검색</a>
         </div>
         {categories.length > 1 && (
           <div id="categories" class="mt-6 flex flex-wrap gap-2">

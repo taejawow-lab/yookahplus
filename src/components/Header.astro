@@ -1,66 +1,66 @@
 ---
 import ThemeToggle from './ThemeToggle.astro';
 
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
-const edition = import.meta.env.PUBLIC_SITE_EDITION || '';
+const siteName = import.meta.env.PUBLIC_SITE_NAME || '육아플러스';
+const edition = import.meta.env.PUBLIC_SITE_EDITION || 'yookahplus · 0–36mo';
 
 const navItems = [
-  { label: 'Posts', href: '/posts/' },
-  { label: 'Categories', href: '/categories/' },
-  { label: 'Search', href: '/search/' },
-  { label: 'About', href: '/about' },
-  { label: 'Editorial', href: '/editorial-process' },
+  { label: '전체 글', href: '/posts/' },
+  { label: '카테고리', href: '/categories/' },
+  { label: '성장 기록', href: '/growth-tracker/' },
+  { label: '보관함', href: '/saved/' },
+  { label: '소개', href: '/about/' },
 ];
 ---
 
-<!-- modern editorial header: token-driven, mobile discoverable, no client JS -->
-<header class="sticky top-0 z-50 backdrop-blur-xl bg-background/90 border-b border-border/70 shadow-[0_1px_0_rgba(15,23,42,0.03)]">
-  {edition && (
-    <div class="border-b border-border/50 bg-muted/25">
-      <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-8 flex items-center justify-between gap-3 text-[10px] uppercase tracking-[0.22em] text-muted-foreground font-mono">
-        <span class="truncate">{edition}</span>
-        <span class="hidden sm:inline">A data-grounded publication</span>
-      </div>
+<header class="sticky top-0 z-50 border-b border-border/70 bg-background/92 shadow-[0_1px_0_rgba(43,37,33,0.04)] backdrop-blur-xl">
+  <div class="border-b border-border/45 bg-muted/30">
+    <div class="container mx-auto flex min-h-8 items-center justify-between gap-3 px-4 text-[10px] font-semibold uppercase tracking-[0.22em] text-muted-foreground sm:px-6 md:px-10">
+      <span class="truncate">{edition}</span>
+      <span class="hidden sm:inline">출처 기반 육아 의사결정 노트</span>
     </div>
-  )}
+  </div>
 
-  <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-[68px] md:min-h-20 flex items-center justify-between gap-4">
-    <a href="/" class="group flex min-w-0 items-center gap-3 rounded-md py-2 focus-visible:outline-ring" aria-label={`${siteName} home`}>
-      <span class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm ring-1 ring-border/30" aria-hidden="true">
-        <span class="text-sm font-bold" style="font-family: var(--font-display);">{siteName.slice(0, 1).toUpperCase()}</span>
+  <div class="container mx-auto flex min-h-[72px] items-center justify-between gap-4 px-4 sm:px-6 md:min-h-20 md:px-10">
+    <a href="/" class="group flex min-w-0 items-center gap-3 rounded-xl py-2 focus-visible:outline-ring" aria-label={`${siteName} home`}>
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 44 44" role="img" aria-label="육아플러스 yookahplus">
+          <rect width="44" height="44" rx="16" fill="currentColor"></rect>
+          <path d="M13 25.4c3.2 4.6 11.8 4.6 15 0" fill="none" stroke="white" stroke-width="3.1" stroke-linecap="round"></path>
+          <circle cx="18" cy="17" r="3.4" fill="white"></circle>
+          <path d="M30.5 15v10M25.5 20h10" stroke="white" stroke-width="3" stroke-linecap="round"></path>
+        </svg>
       </span>
-      <span
-        class="truncate text-2xl md:text-3xl font-bold tracking-[-0.025em] leading-none transition-colors group-hover:text-primary"
-        style="font-family: var(--font-display);"
-      >
-        {siteName}
+      <span class="min-w-0">
+        <span class="block truncate text-2xl font-black leading-none tracking-[-0.035em] transition-colors group-hover:text-primary md:text-3xl" style="font-family: var(--font-display);">{siteName}</span>
+        <span class="mt-1 block truncate text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">yookahplus · 0–36mo</span>
       </span>
     </a>
 
-    <div class="flex items-center gap-3 md:gap-6">
-      <nav aria-label="Primary navigation" class="hidden md:block">
-        <ul class="flex items-center gap-1 text-xs lg:text-sm uppercase tracking-[0.12em]">
+    <div class="flex items-center gap-2 md:gap-4">
+      <nav aria-label="Primary navigation" class="hidden lg:block">
+        <ul class="flex items-center gap-1 text-sm font-bold">
           {navItems.map((item) => (
             <li>
-              <a
-                href={item.href}
-                class="rounded-full px-3 py-2 text-foreground/72 hover:bg-muted hover:text-foreground focus-visible:outline-ring transition-colors"
-              >
+              <a href={item.href} class="rounded-full px-3 py-2 text-foreground/76 transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-ring">
                 {item.label}
               </a>
             </li>
           ))}
         </ul>
       </nav>
-      <a href="/search/" class="hidden sm:inline-flex md:hidden min-h-10 items-center rounded-full border border-border bg-card px-4 text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 shadow-sm">
-        Search
+      <a href="/search/" class="inline-flex min-h-10 items-center rounded-full border border-border bg-card px-3 text-xs font-bold text-foreground/80 shadow-sm transition hover:border-primary/45 hover:bg-primary/10 sm:px-4">
+        검색
+      </a>
+      <a href="/saved/" class="hidden min-h-10 items-center rounded-full border border-border bg-card px-3 text-xs font-bold text-foreground/80 shadow-sm transition hover:border-primary/45 hover:bg-primary/10 sm:inline-flex">
+        ♥ 보관함
       </a>
       <ThemeToggle />
     </div>
   </div>
 
-  <nav aria-label="Mobile primary navigation" class="md:hidden border-t border-border/55 bg-background/95">
-    <ul class="container mx-auto flex gap-2 overflow-x-auto px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] [-webkit-overflow-scrolling:touch]">
+  <nav aria-label="Mobile primary navigation" class="lg:hidden border-t border-border/55 bg-background/95">
+    <ul class="container mx-auto flex gap-2 overflow-x-auto px-4 py-2 text-[12px] font-bold [-webkit-overflow-scrolling:touch]">
       {navItems.map((item) => (
         <li class="shrink-0">
           <a href={item.href} class="inline-flex min-h-10 items-center rounded-full border border-border/70 bg-card px-4 text-foreground/75 shadow-sm transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-ring">

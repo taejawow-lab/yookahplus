@@ -13,7 +13,7 @@ export interface Props {
 
 const { title, description, href, image, category, pubDate, readingTime, variant = 'standard', index = 0 } = Astro.props;
 
-const dateline = pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).toUpperCase();
+const dateline = pubDate.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' });
 const itemNum = String(index + 1).padStart(2, '0');
 ---
 
@@ -56,7 +56,7 @@ const itemNum = String(index + 1).padStart(2, '0');
     <div class="mt-auto flex items-center justify-between gap-3 text-[11px] uppercase tracking-[0.16em] font-mono text-muted-foreground pt-4 border-t border-border/70">
       <time datetime={pubDate.toISOString()}>{dateline}</time>
       <span class="inline-flex min-h-9 items-center gap-2 rounded-full bg-muted px-3 text-foreground/80 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-        Read <span aria-hidden="true">→</span>
+        읽기 <span aria-hidden="true">→</span>
       </span>
     </div>
   </a>

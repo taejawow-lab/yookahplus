@@ -18,13 +18,13 @@ const {
   title,
   subtitle,
   illustration = envIllustration,
-  ctaText = 'Read latest →',
+  ctaText = '최신 글 보기 →',
   ctaHref = '#latest',
 } = Astro.props;
 
 // 현재 날짜 포맷 (editorial dateline)
 const today = new Date();
-const dateline = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toUpperCase();
+const dateline = today.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
 <section class="relative overflow-hidden bg-background">
@@ -56,7 +56,7 @@ const dateline = today.toLocaleDateString('en-US', { month: 'long', day: 'numeri
       <div class="col-span-12 md:col-span-9 relative z-10">
         <!-- ITEM № 표시 (매거진 디테일) -->
         <p class="text-xs uppercase tracking-[0.2em] text-accent font-mono mb-4 md:mb-6">
-          № 01 · LEAD STORY
+          № 01 · 육아플러스 리뉴얼
         </p>
 
         <!-- oversized display heading — 화면 폭의 절반 차지 -->
@@ -99,7 +99,7 @@ const dateline = today.toLocaleDateString('en-US', { month: 'long', day: 'numeri
             />
             <!-- 일러스트 caption (매거진 디테일) -->
             <p class="absolute -bottom-7 right-0 text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-mono">
-              ↑ Cover illustration
+              ↑ 육아플러스 커버
             </p>
           </div>
         ) : (
@@ -115,8 +115,8 @@ const dateline = today.toLocaleDateString('en-US', { month: 'long', day: 'numeri
 
     <!-- 하단 thin label rail -->
     <div class="mt-16 md:mt-24 pt-6 border-t border-border flex items-center justify-between text-xs uppercase tracking-[0.2em] text-muted-foreground font-mono">
-      <span>Editorial · Curated · Cited</span>
-      <span class="hidden md:inline">Scroll to read ↓</span>
+      <span>출처 확인 · 월령별 정리 · 가족 맞춤 기록</span>
+      <span class="hidden md:inline">아래로 내려 최신 글 보기 ↓</span>
     </div>
   </div>
 </section>

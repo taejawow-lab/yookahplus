@@ -1,35 +1,37 @@
-/* yookahplus.org design tokens — auto-generated 2026-05-08T05:39:48.032Z */
+/* yookahplus.org warm editorial renewal tokens — Claude Design handoff applied */
 :root {
-  --color-background: 255 250 245;
-  --color-foreground: 31 31 31;
-  --color-primary: 168 216 201;
-  --color-primary-foreground: 31 58 54;
-  --color-accent: 244 160 154;
-  --color-accent-foreground: 58 31 29;
-  --color-muted: 250 245 240;
-  --color-muted-foreground: 71 71 71;
-  --color-card: 255 250 245;
-  --color-card-foreground: 31 31 31;
-  --color-border: 111 111 111;
-  --color-input: 106 106 106;
-  --color-ring: 168 216 201;
-  --font-heading: "Pretendard", system-ui, sans-serif;
-  --font-body: "Noto Sans KR", sans-serif;
-  --font-display: "Noto Serif KR", "Pretendard", serif;
-  --font-mono: "JetBrains Mono", "Fira Code", monospace;
-  --radius: 12px;
+  --color-background: 251 246 239;
+  --color-foreground: 43 37 33;
+  --color-primary: 194 119 76;
+  --color-primary-foreground: 255 252 248;
+  --color-accent: 91 122 102;
+  --color-accent-foreground: 250 255 250;
+  --color-muted: 245 236 224;
+  --color-muted-foreground: 105 91 80;
+  --color-card: 255 255 255;
+  --color-card-foreground: 43 37 33;
+  --color-border: 234 223 208;
+  --color-input: 204 186 164;
+  --color-ring: 194 119 76;
+  --font-heading: "Pretendard", "Noto Sans KR", system-ui, sans-serif;
+  --font-body: "Pretendard", "Noto Sans KR", system-ui, sans-serif;
+  --font-display: "Newsreader", "Noto Serif KR", "Pretendard", serif;
+  --font-mono: "Spline Sans Mono", "JetBrains Mono", "Fira Code", monospace;
+  --radius: 18px;
 }
+
 [data-theme='dark'] {
-  --color-background: 26 31 29;
-  --color-foreground: 240 240 240;
-  --color-primary: 125 184 168;
-  --color-primary-foreground: 31 58 54;
-  --color-accent: 244 160 154;
-  --color-accent-foreground: 58 31 29;
-  --color-muted: 34 39 37;
-  --color-muted-foreground: 210 210 210;
-  --color-card: 31 36 34;
-  --color-card-foreground: 240 240 240;
-  --color-border: 180 180 180;
-  --color-input: 175 175 175;
+  --color-background: 30 27 24;
+  --color-foreground: 248 241 232;
+  --color-primary: 231 168 124;
+  --color-primary-foreground: 45 29 20;
+  --color-accent: 164 190 170;
+  --color-accent-foreground: 20 37 27;
+  --color-muted: 43 38 34;
+  --color-muted-foreground: 218 203 185;
+  --color-card: 38 34 31;
+  --color-card-foreground: 248 241 232;
+  --color-border: 90 78 67;
+  --color-input: 118 101 86;
+  --color-ring: 231 168 124;
 }
