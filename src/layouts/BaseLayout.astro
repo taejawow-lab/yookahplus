@@ -121,8 +121,14 @@ const finalSchema = schema || defaultSchema;
         <script set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${import.meta.env.PUBLIC_GA4_ID}');`} />
       </>
     )}
-    <!-- taekm33 first-party analytics (privacy-preserving JSONL dashboard) -->
-    <script defer src="https://taekm33.org/assets/taekm33-analytics-v4.js"></script>
+    <!-- taekm33 first-party analytics (privacy-preserving JSONL dashboard)
+         Disabled by default for this standalone Cloudflare Pages site because the
+         shared collector currently rejects credentialed cross-origin requests from
+         yookahplus.org/local preview and pollutes the console with CORS errors.
+         Re-enable only after the collector sends matching CORS credentials headers. -->
+    {import.meta.env.PUBLIC_TAEKM33_ANALYTICS === 'true' && (
+      <script defer src="https://taekm33.org/assets/taekm33-analytics-v4.js"></script>
+    )}
 
 
     <!-- Theme toggle script (FOUC 방지) -->
