@@ -1,0 +1,170 @@
+{
+  "site": "yookahplus",
+  "slug": "summer-lunchbox-food-safety-2026",
+  "date": "2026-06-02",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/ykp-lunchbox-food-safety-2026-hero.png",
+      "filename": "ykp-lunchbox-food-safety-2026-hero.png",
+      "prompt": "realistic summer lunchbox food safety flat lay in clean kitchen, insulated lunch bag, ice packs, sealed plain food containers, water bottle, no people, no text, no logos",
+      "seed": 202606021005,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "cb734a32-663f-4cc5-b34d-6573ae30b414",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_regen_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_note": "regenerated after visual QA rejection"
+    },
+    {
+      "file": "public/images/illustrations/ykp-lunchbox-food-safety-2026-01.png",
+      "filename": "ykp-lunchbox-food-safety-2026-01.png",
+      "prompt": "realistic clean kitchen lunchbox preparation, sealed containers, ice packs, fresh fruit in separate container, no people, no raw meat, no text, no logos",
+      "seed": 202606021006,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "fa15d99a-86cc-4b83-ad81-507fe69c4676",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_regen_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_note": "regenerated after visual QA rejection"
+    },
+    {
+      "file": "public/images/illustrations/ykp-lunchbox-food-safety-2026-02.png",
+      "filename": "ykp-lunchbox-food-safety-2026-02.png",
+      "prompt": "realistic hand washing and lunch preparation station, sink, soap bottle with blank label, sealed lunch containers nearby, no faces, no text, no logos",
+      "seed": 202606021007,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a991c034-db30-4913-b4be-5fc7de71f83b",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_regen_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_note": "regenerated after visual QA rejection"
+    },
+    {
+      "file": "public/images/illustrations/ykp-lunchbox-food-safety-2026-03.png",
+      "filename": "ykp-lunchbox-food-safety-2026-03.png",
+      "prompt": "realistic picnic food safety scene under shade, closed insulated lunch bag on blanket, sealed containers, water bottle, no people, no text, no logos",
+      "seed": 202606021008,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7d359b2f-7ac0-45af-a4ea-17f8085a515b",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_regen_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_note": "regenerated after visual QA rejection"
+    },
+    {
+      "file": "public/images/illustrations/ykp-lunchbox-food-safety-2026-04.png",
+      "filename": "ykp-lunchbox-food-safety-2026-04.png",
+      "prompt": "realistic school lunchbox cooling setup, insulated bag open with ice packs and sealed containers, clean counter, no people, no text, no logos",
+      "seed": 202606021009,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e7ee2570-8277-425b-ba1a-d2c578ae6e4a",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_regen_yookahplus_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_note": "regenerated after visual QA rejection"
+    },
+    {
+      "file": "public/images/illustrations/ykp-lunchbox-food-safety-2026-05.png",
+      "filename": "ykp-lunchbox-food-safety-2026-05.png",
+      "prompt": "realistic after school lunch container washing scene, clean sink, drying rack, open plain containers, no people, no text, no logos",
+      "seed": 202606021010,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "393dfea7-dc95-48ea-817a-b3c55cb3e395",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_regen_yookahplus_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_note": "regenerated after visual QA rejection"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260602-yookahplus-contact-sheet.jpg",
+  "contact_sheet_final": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260602-yookahplus-contact-sheet-final.jpg",
+  "qa_regenerated": [
+    "hero",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ]
+}
