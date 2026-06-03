@@ -1,0 +1,169 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-camp-allergy-medication-card-2026",
+  "date": "2026-06-03",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/ykp-camp-allergy-med-card-2026-hero.png",
+      "filename": "ykp-camp-allergy-med-card-2026-hero.png",
+      "prompt": "realistic child camp safety preparation flat lay, plain backpack, blank medication pouch, water bottle, blank card face down, no child face, no text, no labels, no logos",
+      "seed": 202606039007,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e9d1f4aa-fbdc-410f-aa87-88e8b1bdae5f",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_finalqa_yookahplus_ykp-camp-allergy-med-card-2026-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2009153,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-allergy-med-card-2026-01.png",
+      "filename": "ykp-camp-allergy-med-card-2026-01.png",
+      "prompt": "realistic parent hands organizing child camp backpack with plain pouch and folded clothing, no faces, no labels, no text, no logos",
+      "seed": 202606039008,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4519adb6-6b52-4cd9-a207-e13c0972980d",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_finalqa_yookahplus_ykp-camp-allergy-med-card-2026-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2136109,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-allergy-med-card-2026-02.png",
+      "filename": "ykp-camp-allergy-med-card-2026-02.png",
+      "prompt": "realistic allergy information card preparation desk with completely blank cards face down, plain pen, sealed pouch, no readable text, no labels",
+      "seed": 202606039009,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1e174d29-b6d7-4f32-a2ac-b048eb95e435",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_finalqa_yookahplus_ykp-camp-allergy-med-card-2026-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1660780,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-allergy-med-card-2026-03.png",
+      "filename": "ykp-camp-allergy-med-card-2026-03.png",
+      "prompt": "realistic child camp health pouch on clean table with sealed unmarked soft packs and water bottle, no pills visible, no bottles, no medical labels, no text",
+      "seed": 202606039106,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "2a5eb6a8-52cf-45db-86ba-d65a8dcd6212",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_final2_yookahplus_ykp-camp-allergy-med-card-2026-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1536093,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true,
+      "qa_replacement_round": 2
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-allergy-med-card-2026-04.png",
+      "filename": "ykp-camp-allergy-med-card-2026-04.png",
+      "prompt": "realistic caregiver handing a plain safety pouch to camp staff at doorway, hands only, no faces, no name tags, no readable text",
+      "seed": 202606039011,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "08ea1db1-06a3-4209-a80f-fe588f402c44",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_finalqa_yookahplus_ykp-camp-allergy-med-card-2026-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1586991,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-allergy-med-card-2026-05.png",
+      "filename": "ykp-camp-allergy-med-card-2026-05.png",
+      "prompt": "realistic after camp safety pouch review with blank paper face down, plain pouch, water bottle, no checklist title, no words, no labels",
+      "seed": 202606039107,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e54c05e9-7496-430f-b494-ed49053498c7",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_final2_yookahplus_ykp-camp-allergy-med-card-2026-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2694421,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true,
+      "qa_replacement_round": 2
+    }
+  ],
+  "contact_sheet_final2": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260603-yookahplus-contact-sheet-final2.jpg"
+}
