@@ -1,0 +1,180 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-smartphone-location-sharing-privacy-2026",
+  "date": "2026-06-04",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/ykp-child-location-privacy-2026-hero.png",
+      "filename": "ykp-child-location-privacy-2026-hero.png",
+      "prompt": "realistic Korean family digital safety planning, adult and child hands at table with two dark blank smartphones, no faces, no UI, no text, no logos",
+      "positive_prompt": "realistic Korean family digital safety planning, adult and child hands at table with two dark blank smartphones, no faces, no UI, no text, no logos, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, unsafe food handling, raw meat touching produce, exposed wiring, fake dashboard, fake warning label",
+      "seed": 202606041011,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "qa_replaces": "visual QA rejected first-pass image",
+      "prompt_id": "00886039-ee96-4cd5-8794-acf7f775d3fd",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260604_qa_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1693969,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/ykp-child-location-privacy-2026-01.png",
+      "filename": "ykp-child-location-privacy-2026-01.png",
+      "prompt": "realistic parent and child hands checking smartphone privacy settings at kitchen table, blank dark screen, no faces, no UI, no text",
+      "positive_prompt": "realistic parent and child hands checking smartphone privacy settings at kitchen table, blank dark screen, no faces, no UI, no text, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, unsafe food handling, raw meat touching produce, exposed wiring, fake dashboard, fake warning label",
+      "seed": 202606041012,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "qa_replaces": "visual QA rejected first-pass image",
+      "prompt_id": "f454b3b8-5230-49f3-aa7f-dd1b42861581",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260604_qa_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1406405,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/ykp-child-location-privacy-2026-02.png",
+      "filename": "ykp-child-location-privacy-2026-02.png",
+      "prompt": "realistic family location sharing conversation represented by dark blank phone, house keys, school backpack, no faces, no maps, no text",
+      "positive_prompt": "realistic family location sharing conversation represented by dark blank phone, house keys, school backpack, no faces, no maps, no text, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, unsafe food handling, raw meat touching produce, exposed wiring, fake dashboard, fake warning label",
+      "seed": 202606041013,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "qa_replaces": "visual QA rejected first-pass image",
+      "prompt_id": "0bb9d677-32c5-4168-97d0-c4b6aa2a4e78",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260604_qa_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1582951,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/ykp-child-location-privacy-2026-03.png",
+      "filename": "ykp-child-location-privacy-2026-03.png",
+      "prompt": "realistic child smartphone lost-and-found preparation with simple pouch, blank card face down, dark phone screen, no text, no logos",
+      "positive_prompt": "realistic child smartphone lost-and-found preparation with simple pouch, blank card face down, dark phone screen, no text, no logos, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, unsafe food handling, raw meat touching produce, exposed wiring, fake dashboard, fake warning label",
+      "seed": 202606041014,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "qa_replaces": "visual QA rejected first-pass image",
+      "prompt_id": "f41a768f-5e60-429f-a113-192b5248a546",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260604_qa_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2671745,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/ykp-child-location-privacy-2026-04.png",
+      "filename": "ykp-child-location-privacy-2026-04.png",
+      "prompt": "realistic app permission review represented by tablet face down, sticky notes blank, pencil, no UI, no readable writing, no faces",
+      "positive_prompt": "realistic app permission review represented by tablet face down, sticky notes blank, pencil, no UI, no readable writing, no faces, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, unsafe food handling, raw meat touching produce, exposed wiring, fake dashboard, fake warning label",
+      "seed": 202606041015,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "qa_replaces": "visual QA rejected first-pass image",
+      "prompt_id": "6238a0b8-5485-494e-b3d9-f8b0e9fc4ab1",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260604_qa_yookahplus_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1481037,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/ykp-child-location-privacy-2026-05.png",
+      "filename": "ykp-child-location-privacy-2026-05.png",
+      "prompt": "realistic family digital safety routine in living room with hands around blank dark smartphone, no faces, no UI, no text, no logos",
+      "positive_prompt": "realistic family digital safety routine in living room with hands around blank dark smartphone, no faces, no UI, no text, no logos, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, unsafe food handling, raw meat touching produce, exposed wiring, fake dashboard, fake warning label",
+      "seed": 202606041016,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "qa_replaces": "visual QA rejected first-pass image",
+      "prompt_id": "bddc8e9b-4385-4893-8f6f-af3993ed75a0",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260604_qa_yookahplus_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1205954,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260604-yookahplus-contact-sheet.jpg",
+  "final_visual_qa": "regenerated first-pass rejects; final contact sheet rewritten"
+}
