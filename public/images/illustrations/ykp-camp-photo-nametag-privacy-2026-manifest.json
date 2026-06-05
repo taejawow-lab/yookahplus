@@ -1,0 +1,182 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-summer-camp-photo-name-tag-privacy-2026",
+  "date": "2026-06-05",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/ykp-camp-photo-nametag-privacy-2026-hero.png",
+      "filename": "ykp-camp-photo-nametag-privacy-2026-hero.png",
+      "prompt": "realistic indoor summer camp packing table with plain unbranded backpack, blank name tags, water bottle with no label, folded shirt, no people no faces no text no logos",
+      "positive_prompt": "realistic indoor summer camp packing table with plain unbranded backpack, blank name tags, water bottle with no label, folded shirt, no people no faces no text no logos, professional realistic editorial photography, high detail, 16:9, absolutely blank objects, no text no letters no numbers no logos no people",
+      "negative_prompt": "text, words, letters, numbers, barcodes, label, logo, brand, watermark, document, form, receipt, UI, screen content, code editor, calendar, handwriting, face, person, child, people, readable, low quality, distorted",
+      "seed": 202606052005,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f466744a-c6f3-403d-829d-3b4eb9370576",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_qa2_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1844590,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-photo-nametag-privacy-2026-01.png",
+      "filename": "ykp-camp-photo-nametag-privacy-2026-01.png",
+      "prompt": "realistic child privacy camp preparation flat lay, backpack, blank name tag cards, plain markers capped, no people, no faces, no text",
+      "positive_prompt": "realistic child privacy camp preparation flat lay, backpack, blank name tag cards, plain markers capped, no people, no faces, no text, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, absolutely no readable text, no letters, no numbers, no logos, no UI, blank screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, label, brand, UI, screen content, calendar, document text, handwriting, QR code, face closeup, child face, monster, fantasy, horror, distorted objects, bad anatomy, extra fingers, unsafe scene, low quality, blurry, fake interface",
+      "seed": 202606051008,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1ccc567a-5cc2-4d98-af25-2dbdb0191d3d",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_qa_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1867748,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-photo-nametag-privacy-2026-02.png",
+      "filename": "ykp-camp-photo-nametag-privacy-2026-02.png",
+      "prompt": "realistic outdoor camp privacy planning flat lay with backpack, phone face down black screen, blank paper turned over, no people no faces no text no logos",
+      "positive_prompt": "realistic outdoor camp privacy planning flat lay with backpack, phone face down black screen, blank paper turned over, no people no faces no text no logos, professional realistic editorial photography, high detail, 16:9, absolutely blank objects, no text no letters no numbers no logos no people",
+      "negative_prompt": "text, words, letters, numbers, barcodes, label, logo, brand, watermark, document, form, receipt, UI, screen content, code editor, calendar, handwriting, face, person, child, people, readable, low quality, distorted",
+      "seed": 202606052006,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "36fa3cc3-6ae1-4d7c-ab46-974369676d35",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_qa2_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2492128,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-photo-nametag-privacy-2026-03.png",
+      "filename": "ykp-camp-photo-nametag-privacy-2026-03.png",
+      "prompt": "realistic summer camp supplies table with blank lanyards, plain water bottle, folded shirt, no names, no readable text, no people",
+      "positive_prompt": "realistic summer camp supplies table with blank lanyards, plain water bottle, folded shirt, no names, no readable text, no people, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, absolutely no readable text, no letters, no numbers, no logos, no UI, blank screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, label, brand, UI, screen content, calendar, document text, handwriting, QR code, face closeup, child face, monster, fantasy, horror, distorted objects, bad anatomy, extra fingers, unsafe scene, low quality, blurry, fake interface",
+      "seed": 202606051010,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a5aa8476-cdfa-45e5-9e19-851b7024b083",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_qa_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1919182,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-photo-nametag-privacy-2026-04.png",
+      "filename": "ykp-camp-photo-nametag-privacy-2026-04.png",
+      "prompt": "realistic family privacy conversation represented by two chairs and camp bag on table, blank phone screen turned down, no faces, no people, no text",
+      "positive_prompt": "realistic family privacy conversation represented by two chairs and camp bag on table, blank phone screen turned down, no faces, no people, no text, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, absolutely no readable text, no letters, no numbers, no logos, no UI, blank screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, label, brand, UI, screen content, calendar, document text, handwriting, QR code, face closeup, child face, monster, fantasy, horror, distorted objects, bad anatomy, extra fingers, unsafe scene, low quality, blurry, fake interface",
+      "seed": 202606051011,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "05ae3d6a-6dc7-4678-90d0-36513a4d725f",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_qa_yookahplus_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1503140,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-camp-photo-nametag-privacy-2026-05.png",
+      "filename": "ykp-camp-photo-nametag-privacy-2026-05.png",
+      "prompt": "realistic after camp photo organization desk with closed laptop, blank album pages, plain storage box, no visible photos, no faces, no text",
+      "positive_prompt": "realistic after camp photo organization desk with closed laptop, blank album pages, plain storage box, no visible photos, no faces, no text, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, absolutely no readable text, no letters, no numbers, no logos, no UI, blank screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, label, brand, UI, screen content, calendar, document text, handwriting, QR code, face closeup, child face, monster, fantasy, horror, distorted objects, bad anatomy, extra fingers, unsafe scene, low quality, blurry, fake interface",
+      "seed": 202606051012,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "37bd4fec-fd54-4baa-b5b3-cf209c76c3c6",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_qa_yookahplus_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1783704,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260605-yookahplus-contact-sheet-final2.jpg",
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260605-yookahplus-contact-sheet-final2.jpg",
+  "updated_after_visual_qa": "2026-06-05T10:20:43Z",
+  "updated_after_visual_qa2": "2026-06-05T10:23:18Z"
+}
