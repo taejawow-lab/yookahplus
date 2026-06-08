@@ -1,0 +1,70 @@
+{
+  "site": "yookahplus",
+  "slug": "yua-baljeon-sangdam-jilmun-list-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "images": [
+    {
+      "file": "public/images/illustrations/ykp-dev-visit-20260608-hero.png",
+      "seed": 90611000,
+      "prompt": "warm pediatric waiting room scene with parent and toddler, blank wall, no readable posters, no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "ykp-dev-visit-20260608-hero_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/ykp-dev-visit-20260608-01.png",
+      "seed": 90611001,
+      "prompt": "parent organizing toddler notes with blank cards and simple toys, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "ykp-dev-visit-20260608-01_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/ykp-dev-visit-20260608-02.png",
+      "seed": 90611002,
+      "prompt": "pediatric consultation room with doctor silhouette, parent, child toy, blank screen no writing",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "ykp-dev-visit-20260608-02_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/ykp-dev-visit-20260608-03.png",
+      "seed": 90611003,
+      "prompt": "toddler play observation with blocks in natural light no letters no numbers",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "ykp-dev-visit-20260608-03_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/ykp-dev-visit-20260608-04.png",
+      "seed": 90611004,
+      "prompt": "parent preparing sleep meal and language questions using blank notebook no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "ykp-dev-visit-20260608-04_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/ykp-dev-visit-20260608-05.png",
+      "seed": 90611005,
+      "prompt": "calm home routine scene with toddler and caregiver reading picture book with no readable text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "ykp-dev-visit-20260608-05_00001_.png"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/ykp-dev-visit-20260608-contact-sheet.jpg",
+  "visual_qa": "pass: final contact sheet inspected; rejected screen/text-heavy artifacts regenerated where needed; no readable text/logos/unsafe scenes accepted"
+}
