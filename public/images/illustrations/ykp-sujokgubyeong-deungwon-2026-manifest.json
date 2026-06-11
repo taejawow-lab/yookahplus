@@ -1,0 +1,181 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-sujokgubyeong-deungwon-checklist-2026",
+  "date": "2026-06-11",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/ykp-sujokgubyeong-deungwon-2026-hero.png",
+      "filename": "ykp-sujokgubyeong-deungwon-2026-hero.png",
+      "prompt": "still life family health observation table for child illness, plain water cup, thermometer, tissue box without label, blank note card, no people, no faces, no text",
+      "positive_prompt": "still life family health observation table for child illness, plain water cup, thermometer, tissue box without label, blank note card, no people, no faces, no text, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112010,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "21e26040-bced-4f22-9d7c-ff60d9a844a5",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1435116,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-sujokgubyeong-deungwon-2026-01.png",
+      "filename": "ykp-sujokgubyeong-deungwon-2026-01.png",
+      "prompt": "still life health observation setup, plain water cup, thermometer, blank notebook closed, no people, no face, no words, no numbers",
+      "positive_prompt": "still life health observation setup, plain water cup, thermometer, blank notebook closed, no people, no face, no words, no numbers, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112011,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "691522a6-878a-4b22-81e1-b5f6cbd7b511",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1581948,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-sujokgubyeong-deungwon-2026-02.png",
+      "filename": "ykp-sujokgubyeong-deungwon-2026-02.png",
+      "prompt": "still life child rest area represented by folded clean blanket, plain water cup, soft toy turned away, no people, no faces, no text",
+      "positive_prompt": "still life child rest area represented by folded clean blanket, plain water cup, soft toy turned away, no people, no faces, no text, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112012,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "58974faa-5caf-4ecc-8fe4-962a6d81585a",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1567160,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-sujokgubyeong-deungwon-2026-03.png",
+      "filename": "ykp-sujokgubyeong-deungwon-2026-03.png",
+      "prompt": "still life handwashing station with plain soap dispenser no label, clean towel, sink edge, no people, no text, no logos",
+      "positive_prompt": "still life handwashing station with plain soap dispenser no label, clean towel, sink edge, no people, no text, no logos, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112013,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5809bd6e-c549-4ddd-b5c4-ef85b6747616",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1429165,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-sujokgubyeong-deungwon-2026-04.png",
+      "filename": "ykp-sujokgubyeong-deungwon-2026-04.png",
+      "prompt": "still life toy separation and cleaning setup with plain baskets and washable toys, no labels, no people, no text",
+      "positive_prompt": "still life toy separation and cleaning setup with plain baskets and washable toys, no labels, no people, no text, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112014,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b1154926-963b-4526-be41-2f519fbdc8f9",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_yookahplus_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1408194,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-sujokgubyeong-deungwon-2026-05.png",
+      "filename": "ykp-sujokgubyeong-deungwon-2026-05.png",
+      "prompt": "still life pediatric consultation preparation desk with blank paper turned face down, water bottle without label, phone face down, no people, no text",
+      "positive_prompt": "still life pediatric consultation preparation desk with blank paper turned face down, water bottle without label, phone face down, no people, no text, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112015,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4a759f54-894e-45a6-b24d-b914d710d51f",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_yookahplus_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1302204,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260611-yookahplus-contact-sheet-final.jpg",
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260611-yookahplus-contact-sheet-final.jpg",
+  "updated_after_visual_qa": "2026-06-11T10:21:22Z"
+}
