@@ -1,0 +1,179 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-mulnori-gwi-tongjeung-oeido-yeom-checklist-2026",
+  "date": "2026-06-13",
+  "endpoint": "GTI13 direct ComfyUI (internal endpoint redacted in final report)",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "filename": "ykp-mulnori-gwi-2026-hero.png",
+      "path": "public/images/illustrations/ykp-mulnori-gwi-2026-hero.png",
+      "renderUrl": "/images/illustrations/ykp-mulnori-gwi-2026-hero.png",
+      "prompt": "realistic summer swim gear flat lay with orange towel, swim goggles, swim cap, blank water bottle, sunscreen bottle turned away with no label, no people, no faces, no text",
+      "negative": "text, words, letters, numbers, logos, labels, forms, receipts, documents, passports, boarding passes, phone screen, UI, code, calculator, calendar, paperwork, cards with writing, first aid label, people, faces, children, hands, watermark, low quality, distorted",
+      "seed": 202606132006,
+      "prompt_id": "e46c55ab-383b-4f39-ac47-a54474175b24",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.5,
+      "steps": 30,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_final2_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true,
+      "qa_regenerated_final2": true
+    },
+    {
+      "filename": "ykp-mulnori-gwi-2026-01.png",
+      "path": "public/images/illustrations/ykp-mulnori-gwi-2026-01.png",
+      "renderUrl": "/images/illustrations/ykp-mulnori-gwi-2026-01.png",
+      "prompt": "realistic ear care after swimming still life with folded towel, swim cap, goggles, blank cotton towel, no people, no faces, no medicine, no text",
+      "negative": "readable text, words, letters, numbers, logos, labels, forms, receipts, documents, passports, boarding passes, phone screen, UI, code, calculator buttons, calendar grid, fake paperwork, people, faces, children, hands closeup, watermark, low quality, distorted objects",
+      "seed": 202606131013,
+      "prompt_id": "34dc061c-6675-4229-bcb5-ccde2cd10bfe",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.8,
+      "steps": 28,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_final_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "filename": "ykp-mulnori-gwi-2026-02.png",
+      "path": "public/images/illustrations/ykp-mulnori-gwi-2026-02.png",
+      "renderUrl": "/images/illustrations/ykp-mulnori-gwi-2026-02.png",
+      "prompt": "realistic pool bag drying setup with goggles and towel on bench, no signs no logos no people",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, child face closeup, unsafe water scene, medicine labels",
+      "seed": 202606130421,
+      "prompt_id": "68fe9610-120c-4d95-a0a0-cc312477514f",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 26,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "ykp-mulnori-gwi-2026-03.png",
+      "path": "public/images/illustrations/ykp-mulnori-gwi-2026-03.png",
+      "renderUrl": "/images/illustrations/ykp-mulnori-gwi-2026-03.png",
+      "prompt": "realistic parent observation notebook closed beside swim gear, blank cover, no writing no faces",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, child face closeup, unsafe water scene, medicine labels",
+      "seed": 202606130422,
+      "prompt_id": "64c64568-ffc4-4013-ada2-0065c26fc5a6",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 26,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "ykp-mulnori-gwi-2026-04.png",
+      "path": "public/images/illustrations/ykp-mulnori-gwi-2026-04.png",
+      "renderUrl": "/images/illustrations/ykp-mulnori-gwi-2026-04.png",
+      "prompt": "realistic safe poolside rest scene with towel and shaded chair, no children faces no signs no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, child face closeup, unsafe water scene, medicine labels",
+      "seed": 202606130423,
+      "prompt_id": "bc2f6a7d-bb25-4f64-9711-6a59173bc37b",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 26,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_yookahplus_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "ykp-mulnori-gwi-2026-05.png",
+      "path": "public/images/illustrations/ykp-mulnori-gwi-2026-05.png",
+      "renderUrl": "/images/illustrations/ykp-mulnori-gwi-2026-05.png",
+      "prompt": "realistic clean swim gear storage with mesh bag and dry towel, no labels no logos no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, child face closeup, unsafe water scene, medicine labels",
+      "seed": 202606130424,
+      "prompt_id": "03bdd5e9-76d3-453c-9b82-77ac50873553",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 26,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_yookahplus_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "preflight": {
+    "ok": true,
+    "site": "yookahplus",
+    "slug": "eorini-mulnori-gwi-tongjeung-oeido-yeom-checklist-2026",
+    "title": "어린이 물놀이 귀 통증·외이도염 예방 체크리스트 2026",
+    "candidate_tokens": [
+      "eorini",
+      "gwi",
+      "mulnori",
+      "oeido",
+      "tongjeung",
+      "yeom"
+    ],
+    "threshold": 0.42,
+    "near_duplicates": []
+  },
+  "source_url_check_bad": [
+    [
+      "https://www.healthychildren.org/English/health-issues/conditions/ear-nose-throat/Pages/Ear-Infections.aspx",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "https://www.mayoclinic.org/diseases-conditions/swimmers-ear/symptoms-causes/syc-20351682",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "https://my.clevelandclinic.org/health/diseases/8381-swimmers-ear",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/for-kids.html",
+      "HTTP Error 403: Forbidden"
+    ]
+  ],
+  "final_visual_qa_note": "Final2 regenerated remaining rejects for text/document/people artifacts; contact sheet final2 used for QA."
+}
