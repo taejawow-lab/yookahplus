@@ -1,0 +1,184 @@
+{
+  "site": "yookahplus",
+  "slug": "child-smartphone-location-sharing-first-settings-checklist-2026",
+  "title": "아이 스마트폰 위치공유 첫 설정 체크리스트 2026",
+  "date": "2026-06-14",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "filename": "ykp-location-sharing-2026-hero.png",
+      "file": "public/images/illustrations/ykp-location-sharing-2026-hero.png",
+      "prompt": "Korean family digital safety still life, two dark blank smartphones face down, child backpack, plain colored cards, no people, no faces, no text, no logos",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606156282,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true,
+      "prompt_id": "85763f32-f0a4-4cfd-9fa0-90e1ef01d5ae",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1663972
+    },
+    {
+      "filename": "ykp-location-sharing-2026-01.png",
+      "file": "public/images/illustrations/ykp-location-sharing-2026-01.png",
+      "prompt": "child smartphone location sharing rules still life on kitchen table, blank phone screens face down, backpack, colored blocks, no people, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606155455,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true,
+      "prompt_id": "552591a6-4290-4764-978f-221972e79137",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1576737
+    },
+    {
+      "filename": "ykp-location-sharing-2026-02.png",
+      "file": "public/images/illustrations/ykp-location-sharing-2026-02.png",
+      "prompt": "school commute safety still life with child backpack, dark blank phone, keys, plain card, no people, no writing, no logos",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606158537,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true,
+      "prompt_id": "fedf6792-64ad-4b67-a813-2d883e7319b7",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1511494
+    },
+    {
+      "filename": "ykp-location-sharing-2026-03.png",
+      "file": "public/images/illustrations/ykp-location-sharing-2026-03.png",
+      "prompt": "parent notification settings concept as blank dark smartphone and sealed envelope on table, no people, no UI, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606156599,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true,
+      "prompt_id": "39da1b12-af72-48bf-a224-8aef9c2bb7ad",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1375376
+    },
+    {
+      "filename": "ykp-location-sharing-2026-04.png",
+      "file": "public/images/illustrations/ykp-location-sharing-2026-04.png",
+      "prompt": "family location sharing safety still life with blank colored cards, dark smartphones face down, house key, backpack fabric, no remote control, no buttons, no numbers, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606164754,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": "final2",
+      "prompt_id": "624723fb-25fa-469f-9da2-4481b20d10bc",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen2_yookahplus_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1979274
+    },
+    {
+      "filename": "ykp-location-sharing-2026-05.png",
+      "file": "public/images/illustrations/ykp-location-sharing-2026-05.png",
+      "prompt": "after school conversation concept still life with two mugs, phones face down, backpack, no people, no text, no logos",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606154852,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true,
+      "prompt_id": "97295ca7-2554-46ce-9045-b76de29b7c93",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen_yookahplus_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2012049
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260614-yookahplus-contact-sheet-final2.jpg",
+  "sources": [
+    "https://consumer.ftc.gov/articles/kids-and-online-privacy",
+    "https://consumer.ftc.gov/articles/how-protect-your-privacy-apps",
+    "https://www.cisa.gov/secure-our-world",
+    "https://www.nist.gov/privacy-framework",
+    "https://support.google.com/families/",
+    "https://www.apple.com/families/",
+    "https://www.apple.com/legal/privacy/en-ww/parent-disclosure/",
+    "https://www.commonsensemedia.org/privacy-and-internet-safety"
+  ],
+  "qa_note": "Final2 manifest after visual-QA regenerations on 2026-06-14; rejected images replaced before staging."
+}
