@@ -1,0 +1,120 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-app-subscription-inapp-purchase-refund-checklist-2026",
+  "title": "어린이 앱 구독·인앱결제 환불 보호자 체크리스트 2026",
+  "date": "2026-06-15",
+  "gti13_only": true,
+  "endpoint_redacted": "direct GTI13 ComfyUI endpoint verified by gate",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "count_1536x864_png": 6,
+  "images": [
+    {
+      "file": "public/images/illustrations/ykp-app-purchase-refund-2026-hero.png",
+      "role": "hero",
+      "seed": 861599700,
+      "prompt": "child app purchase prevention still life with dark blank tablet, dark blank phone, small lockbox, plain colored cards, no food no people no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3f0a3007-c041-4837-a6f4-c113d40edf43",
+      "remote": {
+        "filename": "ykp-app-purchase-refund-2026-hero-regen2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated2": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-app-purchase-refund-2026-01.png",
+      "role": "01",
+      "seed": 861599701,
+      "prompt": "family purchase approval setup still life with closed laptop, dark phone screen, lock icon shaped padlock object, blank cards, no food no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "17e71744-1d6d-41ed-964a-0a9c73f7679e",
+      "remote": {
+        "filename": "ykp-app-purchase-refund-2026-01-regen2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated2": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-app-purchase-refund-2026-02.png",
+      "role": "02",
+      "seed": 861599702,
+      "prompt": "app refund evidence still life with plain sealed envelope, blank folder, dark phone screen, no receipts no forms no numbers no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "03caed72-e056-4fb1-9a89-d91c6827530f",
+      "remote": {
+        "filename": "ykp-app-purchase-refund-2026-02-regen2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated2": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-app-purchase-refund-2026-03.png",
+      "role": "03",
+      "seed": 861599703,
+      "prompt": "subscription cancellation safety still life with dark tablet screen, simple padlock, blank sticky notes, no app icons no UI no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d1375961-d8ab-44ad-a372-825f7f636fc7",
+      "remote": {
+        "filename": "ykp-app-purchase-refund-2026-03-regen2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated2": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-app-purchase-refund-2026-04.png",
+      "role": "04",
+      "seed": 861599704,
+      "prompt": "parental control monthly review still life with two dark devices, blank notebook, pencil, no writing no people no food",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "804f9aba-f94c-47af-9e81-ec1a5084556c",
+      "remote": {
+        "filename": "ykp-app-purchase-refund-2026-04-regen2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated2": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-app-purchase-refund-2026-05.png",
+      "role": "05",
+      "seed": 861599705,
+      "prompt": "child digital safety device basket with dark screens, small lockbox, plain cards, no faces no logos no text no food",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "88584265-6783-4fd3-9222-cf563093c2b2",
+      "remote": {
+        "filename": "ykp-app-purchase-refund-2026-05-regen2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated2": true
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/ykp-app-purchase-refund-2026-contact-sheet-final2.jpg",
+  "visual_qa": {
+    "status": "passed",
+    "review": "final contact sheet visually inspected; regenerated/replaced rejected assets; no readable text/logos/UI or safety/privacy blockers observed",
+    "contact_sheet": "public/images/illustrations/ykp-app-purchase-refund-2026-contact-sheet-final2.jpg"
+  }
+}
