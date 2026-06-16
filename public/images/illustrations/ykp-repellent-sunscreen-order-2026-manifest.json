@@ -1,0 +1,182 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-mosquito-tick-repellent-sunscreen-order-checklist-2026",
+  "date": "2026-06-16",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/ykp-repellent-sunscreen-order-2026-hero.png",
+      "filename": "ykp-repellent-sunscreen-order-2026-hero.png",
+      "prompt": "child outdoor safety still life only: plain sun hat, long sleeve shirt, unlabeled sunscreen tube, unlabeled repellent bottle, towel on table, no people, no faces, no text, no logos",
+      "positive_prompt": "child outdoor safety still life only: plain sun hat, long sleeve shirt, unlabeled sunscreen tube, unlabeled repellent bottle, towel on table, no people, no faces, no text, no logos, professional realistic editorial still life photography, 16:9, natural light, high detail, safe factual scene, absolutely no embedded text, no logos, no brands, no readable markings",
+      "negative_prompt": "person, people, human, face, eyes, skin, hands, child, text, words, letters, numbers, keyboard letters, calculator, money, currency, coins, bills, passport text, form, document text, label, logo, brand, QR, barcode, UI, screen content, map text, handwriting, low quality, distorted",
+      "seed": 202606161210,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f0853275-09e8-4a8d-a1c2-2df51dec1c1a",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1692403,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-repellent-sunscreen-order-2026-01.png",
+      "filename": "ykp-repellent-sunscreen-order-2026-01.png",
+      "prompt": "child sun and insect safety still life: two completely plain white bottles with no label, plain cloth, blank tabletop, no people no faces no text no logos",
+      "positive_prompt": "child sun and insect safety still life: two completely plain white bottles with no label, plain cloth, blank tabletop, no people no faces no text no logos, professional realistic editorial still life photography, high detail, no readable markings anywhere, blank objects only",
+      "negative_prompt": "text, words, letters, numbers, label, logo, brand, watermark, form, document, paper, passport, ID card, ticket, boarding pass, barcode, QR, UI, screen, map, human, person, face, child, hands, low quality",
+      "seed": 202606161503,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "aa77c3db-cfc5-4b65-87b2-379313d827c0",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final2_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1324421,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": "final2"
+    },
+    {
+      "file": "public/images/illustrations/ykp-repellent-sunscreen-order-2026-02.png",
+      "filename": "ykp-repellent-sunscreen-order-2026-02.png",
+      "prompt": "still life only of child hiking shoes, socks, long pants, plain hat near door, no people, no faces, no logos, no text",
+      "positive_prompt": "still life only of child hiking shoes, socks, long pants, plain hat near door, no people, no faces, no logos, no text, professional realistic editorial still life photography, 16:9, natural light, high detail, safe factual scene, absolutely no embedded text, no logos, no brands, no readable markings",
+      "negative_prompt": "person, people, human, face, eyes, skin, hands, child, text, words, letters, numbers, keyboard letters, calculator, money, currency, coins, bills, passport text, form, document text, label, logo, brand, QR, barcode, UI, screen content, map text, handwriting, low quality, distorted",
+      "seed": 202606161212,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "8c209a82-7378-4b6b-aed9-3a38d20b83c4",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1415272,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-repellent-sunscreen-order-2026-03.png",
+      "filename": "ykp-repellent-sunscreen-order-2026-03.png",
+      "prompt": "after outdoor routine still life: plain woven basket, folded towels, completely unlabeled white pump bottle, dry safe floor, no people no text no logos",
+      "positive_prompt": "after outdoor routine still life: plain woven basket, folded towels, completely unlabeled white pump bottle, dry safe floor, no people no text no logos, professional realistic editorial still life photography, high detail, no readable markings anywhere, blank objects only",
+      "negative_prompt": "text, words, letters, numbers, label, logo, brand, watermark, form, document, paper, passport, ID card, ticket, boarding pass, barcode, QR, UI, screen, map, human, person, face, child, hands, low quality",
+      "seed": 202606161504,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7c99be5b-2410-477f-9a2a-1df28f6d08aa",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final2_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1793796,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": "final2"
+    },
+    {
+      "file": "public/images/illustrations/ykp-repellent-sunscreen-order-2026-04.png",
+      "filename": "ykp-repellent-sunscreen-order-2026-04.png",
+      "prompt": "family picnic preparation still life only: plain water bottle without label, sun hat, folded cloth, sealed blank pouch, no people, no faces, no text",
+      "positive_prompt": "family picnic preparation still life only: plain water bottle without label, sun hat, folded cloth, sealed blank pouch, no people, no faces, no text, professional realistic editorial still life photography, 16:9, natural light, high detail, safe factual scene, absolutely no embedded text, no logos, no brands, no readable markings",
+      "negative_prompt": "person, people, human, face, eyes, skin, hands, child, text, words, letters, numbers, keyboard letters, calculator, money, currency, coins, bills, passport text, form, document text, label, logo, brand, QR, barcode, UI, screen content, map text, handwriting, low quality, distorted",
+      "seed": 202606161214,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "dcf45a70-14ec-41ef-9d41-2ad264f83f14",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final_yookahplus_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2109887,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-repellent-sunscreen-order-2026-05.png",
+      "filename": "ykp-repellent-sunscreen-order-2026-05.png",
+      "prompt": "tick prevention still life: magnifying glass, long socks, plain fabric, blank colored cards with no writing, no paper forms, no people no text no insects closeup",
+      "positive_prompt": "tick prevention still life: magnifying glass, long socks, plain fabric, blank colored cards with no writing, no paper forms, no people no text no insects closeup, professional realistic editorial still life photography, high detail, no readable markings anywhere, blank objects only",
+      "negative_prompt": "text, words, letters, numbers, label, logo, brand, watermark, form, document, paper, passport, ID card, ticket, boarding pass, barcode, QR, UI, screen, map, human, person, face, child, hands, low quality",
+      "seed": 202606161505,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "62de73b4-f7c4-4ce5-b640-d3d834557b93",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final2_yookahplus_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2702666,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": "final2"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260616-yookahplus-contact-sheet-final2.jpg",
+  "visual_qa_status": "pending-human/agent-contact-sheet-review",
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260616-yookahplus-contact-sheet-final2.jpg",
+  "updated_after_visual_qa": "2026-06-16T00:00:00Z"
+}
