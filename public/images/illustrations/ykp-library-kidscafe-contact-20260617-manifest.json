@@ -1,0 +1,168 @@
+{
+  "site": "yookahplus",
+  "slug": "chodeung-banghak-library-kidscafe-safety-contact-checklist-2026",
+  "date": "2026-06-17",
+  "endpoint": "redacted-direct-gti13",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/ykp-library-kidscafe-contact-20260617-hero.png",
+      "filename": "ykp-library-kidscafe-contact-20260617-hero.png",
+      "prompt": "realistic Korean family planning table for child outing with backpack, blank name tag, library books with no text, face-down phone, no child faces, no readable words",
+      "positive_prompt": "realistic Korean family planning table for child outing with backpack, blank name tag, library books with no text, face-down phone, no child faces, no readable words, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment screen, login form, passport, official seal, barcode, fake label, child face closeup, bad hands, distorted objects, unsafe scene, low quality, blurry, cartoon, placeholder, stock art",
+      "seed": 202606170619,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "bc158c48-dc46-4d20-91bd-bd0cbdc25453",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1691618,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/ykp-library-kidscafe-contact-20260617-01.png",
+      "filename": "ykp-library-kidscafe-contact-20260617-01.png",
+      "prompt": "realistic child outing preparation still life with plain backpack, blank name tag card, two apples, unlabeled plain water bottle, no books, no packaging, no screens, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, label, brand, UI, screen, laptop, monitor, phone, document, book cover, packaging, bottle label, medicine bottle, pills, medical label, forms, barcode, handwriting, child face, people face, low quality, blurry",
+      "seed": 202606171202,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "676fffbc-b081-42de-83e7-83e538394231",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_qa3_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1691384,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-library-kidscafe-contact-20260617-02.png",
+      "filename": "ykp-library-kidscafe-contact-20260617-02.png",
+      "prompt": "realistic parent contact card preparation with blank cards and phone face down, no readable text no UI",
+      "positive_prompt": "realistic parent contact card preparation with blank cards and phone face down, no readable text no UI, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment screen, login form, passport, official seal, barcode, fake label, child face closeup, bad hands, distorted objects, unsafe scene, low quality, blurry, cartoon, placeholder, stock art",
+      "seed": 202606170621,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "44f1fc14-7ff9-4108-a5c6-b78c141a5820",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1672205,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/ykp-library-kidscafe-contact-20260617-03.png",
+      "filename": "ykp-library-kidscafe-contact-20260617-03.png",
+      "prompt": "realistic indoor play safety planning with plain unlabeled water bottle, shoes, soft ball, blank wristband, no brand labels, no text, no children",
+      "positive_prompt": "realistic indoor play safety planning with plain unlabeled water bottle, shoes, soft ball, blank wristband, no brand labels, no text, no children, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment card, currency, receipt, form, barcode, official seal, calculator, phone screen, laptop screen, child face, people face, label, packaging label, medical label, low quality, blurry, distorted objects",
+      "seed": 202606171013,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5b3e1804-1b69-4267-9e18-a13a85b54a0d",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_qa_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1583523,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/ykp-library-kidscafe-contact-20260617-04.png",
+      "filename": "ykp-library-kidscafe-contact-20260617-04.png",
+      "prompt": "realistic pickup rule scene with two adult hands near closed backpack and blank card, no faces no text",
+      "positive_prompt": "realistic pickup rule scene with two adult hands near closed backpack and blank card, no faces no text, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment screen, login form, passport, official seal, barcode, fake label, child face closeup, bad hands, distorted objects, unsafe scene, low quality, blurry, cartoon, placeholder, stock art",
+      "seed": 202606170623,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "15b27168-29b5-4767-aafe-d4579df90090",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_yookahplus_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1608467,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260617-yookahplus-contact-sheet-accepted.jpg",
+  "preflight": {
+    "rc": 0,
+    "out": "{\n  \"ok\": true,\n  \"site\": \"yookahplus\",\n  \"slug\": \"chodeung-banghak-library-kidscafe-safety-contact-checklist-2026\",\n  \"title\": \"초등 방학 도서관·키즈카페 안전 연락처 체크리스트 2026\",\n  \"candidate_tokens\": [\n    \"banghak\",\n    \"chodeung\",\n    \"contact\",\n    \"kidscafe\",\n    \"library\"\n  ],\n  \"threshold\": 0.42,\n  \"near_duplicates\": []\n}\n",
+    "err": ""
+  },
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260617-yookahplus-contact-sheet-accepted.jpg",
+  "updated_after_visual_qa": "2026-06-17T10:22:29Z",
+  "updated_after_visual_qa2": "2026-06-17T10:24:27Z",
+  "updated_after_visual_qa3": "2026-06-17T10:26:06Z",
+  "accepted_assets": [
+    "ykp-library-kidscafe-contact-20260617-hero.png",
+    "ykp-library-kidscafe-contact-20260617-01.png",
+    "ykp-library-kidscafe-contact-20260617-02.png",
+    "ykp-library-kidscafe-contact-20260617-03.png",
+    "ykp-library-kidscafe-contact-20260617-04.png"
+  ],
+  "rejected_removed": [
+    "05"
+  ],
+  "visualsCount": 5,
+  "updated_after_exclusion": "2026-06-17T10:27:33Z"
+}
