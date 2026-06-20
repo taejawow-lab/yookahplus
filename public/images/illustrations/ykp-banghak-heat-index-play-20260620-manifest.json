@@ -1,0 +1,109 @@
+{
+  "site": "yookahplus",
+  "slug": "chodeung-banghak-heat-index-outdoor-play-checklist-2026",
+  "date": "2026-06-20",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI (internal redacted in report)",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, document numbers, map labels, official seals, fake dashboard, fake warning label, child face closeup, visible currency, receipts with text, calculators with numbers, medical forms, passports, license plates",
+  "assets": [
+    {
+      "filename": "ykp-banghak-heat-index-play-20260620-hero.png",
+      "render_url": "/images/illustrations/ykp-banghak-heat-index-play-20260620-hero.png",
+      "prompt_id": "7b544da0-e51c-45ae-a449-e61422710ad4",
+      "prompt": "realistic Korean elementary summer heat planning still life with straw hat, water bottle, blank weather cards, towel, no children, no faces, no labels, no text",
+      "seed": 801605,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 30,
+      "cfg": 5.0,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "ykp-banghak-heat-index-play-20260620_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "filename": "ykp-banghak-heat-index-play-20260620-01.png",
+      "render_url": "/images/illustrations/ykp-banghak-heat-index-play-20260620-01.png",
+      "prompt_id": "217d01f8-392e-43dd-ba44-700162b39a96",
+      "prompt": "realistic shaded playground edge with water bottles and hats on bench, no faces, no signs, no text",
+      "seed": 628275,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "ykp-banghak-heat-index-play-20260620_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "ykp-banghak-heat-index-play-20260620-02.png",
+      "render_url": "/images/illustrations/ykp-banghak-heat-index-play-20260620-02.png",
+      "prompt_id": "78ccd1a7-25a3-4a5f-8751-a70967765c68",
+      "prompt": "realistic summer heat safety still life with straw hat, water bottles, towel and sunglasses on shaded mat, no children, no faces, no sunscreen tube labels, no text",
+      "seed": 915522,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 32,
+      "cfg": 4.8,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "ykp-banghak-heat-index-play-20260620_00009_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": "final2"
+    },
+    {
+      "filename": "ykp-banghak-heat-index-play-20260620-03.png",
+      "render_url": "/images/illustrations/ykp-banghak-heat-index-play-20260620-03.png",
+      "prompt_id": "d88c903e-59b2-482b-9394-c13c204e4879",
+      "prompt": "realistic shaded pickup waiting still life with plain backpack turned fully away, straw hat, water bottle, bench under shade, no people, no signs, no labels, no text",
+      "seed": 897262,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 32,
+      "cfg": 4.8,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "ykp-banghak-heat-index-play-20260620_00010_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": "final2"
+    },
+    {
+      "filename": "ykp-banghak-heat-index-play-20260620-04.png",
+      "render_url": "/images/illustrations/ykp-banghak-heat-index-play-20260620-04.png",
+      "prompt_id": "a5f87cfd-1f9c-4b41-9a20-e6107cf678b8",
+      "prompt": "realistic indoor cool-down corner with fan, water, plain mat, no medical labels no text",
+      "seed": 628278,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "ykp-banghak-heat-index-play-20260620_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "final_visual_qa_note": "Final2 regeneration for remaining text/label/child-face risks; contact sheet rewritten."
+}
