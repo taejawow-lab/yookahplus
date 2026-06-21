@@ -1,0 +1,111 @@
+{
+  "site": "yookahplus",
+  "slug": "chodeung-banghak-digital-photo-sharing-privacy-checklist-2026",
+  "date": "2026-06-21",
+  "endpoint_host": "gti13 direct ComfyUI (internal URL redacted in report)",
+  "comfy_url": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "filename": "ykp-digital-photo-privacy-20260621-hero.png",
+      "file": "public/images/illustrations/ykp-digital-photo-privacy-20260621-hero.png",
+      "prompt": "realistic Korean elementary summer vacation photo privacy flat lay with backpack, blank name tag, face-down phone, no people no text",
+      "seed": 202606210016,
+      "prompt_id": "b1f5e7e4-8e44-43f3-8602-e270d40f1d1d",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 2127130,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "ykp-digital-photo-privacy-20260621-01.png",
+      "file": "public/images/illustrations/ykp-digital-photo-privacy-20260621-01.png",
+      "prompt": "realistic child photo privacy cleanup still life with closed laptop, blank photo album cover, backpack, no people, no faces, no visible photos, no screen, no text",
+      "seed": 202606212006,
+      "prompt_id": "6f74c7d2-312d-41e9-9c3c-33178ef6f9b0",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1477925,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_regen_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "filename": "ykp-digital-photo-privacy-20260621-02.png",
+      "file": "public/images/illustrations/ykp-digital-photo-privacy-20260621-02.png",
+      "prompt": "realistic privacy planning with phone face down completely dark screen, blank cards, backpack strap, no UI, no text, no people",
+      "seed": 202606212007,
+      "prompt_id": "018d763c-02c4-458e-9134-b41501824b11",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1752455,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_regen_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "filename": "ykp-digital-photo-privacy-20260621-03.png",
+      "file": "public/images/illustrations/ykp-digital-photo-privacy-20260621-03.png",
+      "prompt": "realistic summer camp supplies table with plain water bottle, hat, blank lanyard, no names no logos no faces",
+      "seed": 202606210019,
+      "prompt_id": "c9fa7b4f-d27d-40ce-9cfb-738af0ea422e",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1712812,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "ykp-digital-photo-privacy-20260621-04.png",
+      "file": "public/images/illustrations/ykp-digital-photo-privacy-20260621-04.png",
+      "prompt": "realistic digital privacy cleanup still life with closed opaque storage box, blank colored sticky notes, face-down tablet, backpack corner, no photo frames, no photographs, no people, no faces, no text",
+      "seed": 202606212999,
+      "prompt_id": "0c072024-7997-48a2-a663-c4ab4fc5d9d0",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 974866,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_yookah_04_final2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa_final2": true
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/ykp-digital-photo-privacy-20260621-contact-sheet-final2.jpg",
+  "visual_qa_status": "passed final contact-sheet review",
+  "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, document numbers, map labels, official seals, fake dashboard, fake warning label, child face closeup, readable forms, currency, coins, calculators with visible numbers",
+  "updated_after_visual_qa_regen": "2026-06-21T10:21:25Z"
+}
