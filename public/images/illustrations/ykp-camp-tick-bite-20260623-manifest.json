@@ -55,24 +55,24 @@
     {
       "file": "public/images/illustrations/ykp-camp-tick-bite-20260623-02.png",
       "filename": "ykp-camp-tick-bite-20260623-02.png",
-      "prompt": "realistic tick bite prevention supplies still life with plain socks, tweezers in a completely blank pouch, magnifier, no red cross, no symbols, no text, no labels",
-      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art, red cross symbol, medical cross, measurement marks",
-      "seed": 202606231300,
-      "prompt_id": "1c064c56-4194-4cea-b985-4df220db6023",
+      "prompt": "realistic tick prevention supplies still life with plain socks, metal tweezers, magnifier, blank cloth pouch, natural light, no bottles, no medical kit, no red cross, no symbols, no text, no labels",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, code, terminal, fake forms, fake documents, medical bottle, medicine bottle, red cross, medical cross, first aid cross, distorted objects, QR code, barcode, calendar grid, handwriting, child face, people, low quality, blurry",
+      "seed": 202606232010,
+      "prompt_id": "6246f5b3-5295-4711-a01a-833a478b44a7",
       "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
-      "steps": 28,
-      "cfg": 5.4,
+      "steps": 30,
+      "cfg": 5.6,
       "sampler": "dpmpp_2m",
       "scheduler": "karras",
       "width": 1536,
       "height": 864,
-      "bytes": 3174902,
+      "bytes": 3005272,
       "comfy_output": {
-        "filename": "hermes_batch_d_20260623_repair_yookahplus_02_00001_.png",
+        "filename": "hermes_batch_d_20260623_finalrepair_yookahplus_02_00001_.png",
         "subfolder": "",
         "type": "output"
       },
-      "regenerated_after_visual_qa": true
+      "regenerated_after_final_visual_qa": true
     },
     {
       "file": "public/images/illustrations/ykp-camp-tick-bite-20260623-03.png",
@@ -120,5 +120,6 @@
   ],
   "visual_qa": "final contact sheet regenerated after rejecting screen/text/label artifacts",
   "contact_sheet": "public/images/illustrations/ykp-camp-tick-bite-20260623-contact-sheet.jpg",
-  "updated_after_visual_qa": "2026-06-23T10:22:29Z"
+  "updated_after_visual_qa": "2026-06-23T10:22:29Z",
+  "updated_after_final_visual_qa": "2026-06-23T10:24:49Z"
 }
