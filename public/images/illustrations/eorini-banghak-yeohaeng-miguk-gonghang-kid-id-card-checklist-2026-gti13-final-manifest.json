@@ -1,0 +1,89 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-banghak-yeohaeng-miguk-gonghang-kid-id-card-checklist-2026",
+  "date": "2026-06-24",
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "steps": 24,
+    "cfg": "5.2-5.4",
+    "negative_prompt_summary": "no text, UI, labels, currency/forms, medical labels/pills, passport/ID text, child faces"
+  },
+  "final_contact_sheet": "reports/batch-d-20260624-contact-sheet-final.jpg",
+  "visual_qa": "passed after targeted regeneration; final contact sheet reviewed",
+  "assets": [
+    {
+      "filename": "ykp-child-travel-contact-card-20260624-hero.png",
+      "url": "/images/illustrations/ykp-child-travel-contact-card-20260624-hero.png",
+      "file": "public/images/illustrations/ykp-child-travel-contact-card-20260624-hero.png",
+      "bytes": 2274934,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    },
+    {
+      "filename": "ykp-child-travel-contact-card-20260624-01.png",
+      "url": "/images/illustrations/ykp-child-travel-contact-card-20260624-01.png",
+      "file": "public/images/illustrations/ykp-child-travel-contact-card-20260624-01.png",
+      "bytes": 1516487,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    },
+    {
+      "filename": "ykp-child-travel-contact-card-20260624-02.png",
+      "url": "/images/illustrations/ykp-child-travel-contact-card-20260624-02.png",
+      "file": "public/images/illustrations/ykp-child-travel-contact-card-20260624-02.png",
+      "bytes": 1546481,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    },
+    {
+      "filename": "ykp-child-travel-contact-card-20260624-03.png",
+      "url": "/images/illustrations/ykp-child-travel-contact-card-20260624-03.png",
+      "file": "public/images/illustrations/ykp-child-travel-contact-card-20260624-03.png",
+      "bytes": 1491060,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    },
+    {
+      "filename": "ykp-child-travel-contact-card-20260624-04.png",
+      "url": "/images/illustrations/ykp-child-travel-contact-card-20260624-04.png",
+      "file": "public/images/illustrations/ykp-child-travel-contact-card-20260624-04.png",
+      "bytes": 2247947,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "host": "gti13",
+      "endpoint": "redacted-direct-comfyui",
+      "status": "accepted_after_visual_qa",
+      "seed": "see run helper reports; targeted regenerations used deterministic 202606249xxx seeds where applicable"
+    }
+  ]
+}
