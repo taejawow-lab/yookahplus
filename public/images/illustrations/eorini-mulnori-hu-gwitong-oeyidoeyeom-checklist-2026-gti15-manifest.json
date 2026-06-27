@@ -1,0 +1,22 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-mulnori-hu-gwitong-oeyidoeyeom-checklist-2026",
+  "endpoint": "GTI15 direct ComfyUI (redacted LAN endpoint)",
+  "dimensions": "1536x864",
+  "accepted_images": [
+    "ykp-swim-ear-aftercare-20260627-hero.png",
+    "ykp-swim-ear-aftercare-20260627-01.png",
+    "ykp-swim-ear-aftercare-20260627-02.png",
+    "ykp-swim-ear-aftercare-20260627-03.png",
+    "ykp-swim-ear-aftercare-20260627-04.png",
+    "ykp-swim-ear-aftercare-20260627-05.png"
+  ],
+  "sources": [
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260627/yookahplus_a/20260627_191937_krea_2490101575.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260627/yookahplus_b/20260627_192125_realvis_3811240917.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260627/yookahplus_b/20260627_192143_juggernaut_3811240918.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260627/yookahplus_c/20260627_192625_juggernaut_1184795371.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260627/yookahplus_d/20260627_193017_realvis_2960894576.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260627/yookahplus_d/20260627_193034_juggernaut_2960894577.png"
+  ]
+}
