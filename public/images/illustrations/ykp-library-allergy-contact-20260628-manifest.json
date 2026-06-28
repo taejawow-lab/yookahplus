@@ -1,0 +1,28 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-banghak-library-program-allergy-contact-checklist-2026",
+  "date": "2026-06-28",
+  "gti15_endpoint": "redacted direct GTI15 ComfyUI endpoint verified by gate",
+  "selected_labels": [
+    6,
+    7,
+    8,
+    16,
+    17
+  ],
+  "images": [
+    "ykp-library-allergy-contact-20260628-hero.png",
+    "ykp-library-allergy-contact-20260628-support-1.png",
+    "ykp-library-allergy-contact-20260628-support-2.png",
+    "ykp-library-allergy-contact-20260628-support-3.png",
+    "ykp-library-allergy-contact-20260628-support-4.png"
+  ],
+  "source_paths": [
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/yookahplus/pass2/20260628_192005_juggernaut_3699879125.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/yookahplus/regen3/20260628_192731_krea_4030655054.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/yookahplus/regen3/20260628_192803_realvis_4030655055.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/yookahplus/regen6/20260628_193403_krea_1572010493.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/yookahplus/regen6/20260628_193436_realvis_1572010494.png"
+  ],
+  "visual_qa": "accepted after contact-sheet visual QA; rejected earlier candidates with readable text/UI/labels/forms/screens/calendars/currency as applicable"
+}
