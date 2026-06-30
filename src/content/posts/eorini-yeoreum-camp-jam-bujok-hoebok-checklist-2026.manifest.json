@@ -1,0 +1,49 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-yeoreum-camp-jam-bujok-hoebok-checklist-2026",
+  "date": "2026-06-30",
+  "gate": "GTI15 gate passed before generation",
+  "endpoint_host": "gti15 direct ComfyUI endpoint redacted in public report",
+  "assets": [
+    {
+      "render_url": "/images/illustrations/ykp-camp-sleep-recovery-20260630-1.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/yookahplus_a/20260630_191958_realvis_2771867114.png",
+      "filename": "ykp-camp-sleep-recovery-20260630-1.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/ykp-camp-sleep-recovery-20260630-2.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/yookahplus_a/20260630_192013_juggernaut_2771867115.png",
+      "filename": "ykp-camp-sleep-recovery-20260630-2.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/ykp-camp-sleep-recovery-20260630-3.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/yookahplus_b/20260630_192029_krea_4153464957.png",
+      "filename": "ykp-camp-sleep-recovery-20260630-3.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/ykp-camp-sleep-recovery-20260630-4.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/yookahplus_b/20260630_192102_realvis_4153464958.png",
+      "filename": "ykp-camp-sleep-recovery-20260630-4.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/ykp-camp-sleep-recovery-20260630-5.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/yookahplus_b/20260630_192117_juggernaut_4153464959.png",
+      "filename": "ykp-camp-sleep-recovery-20260630-5.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    }
+  ]
+}
