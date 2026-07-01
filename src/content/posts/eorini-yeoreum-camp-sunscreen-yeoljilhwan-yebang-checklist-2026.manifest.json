@@ -1,0 +1,23 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-yeoreum-camp-sunscreen-yeoljilhwan-yebang-checklist-2026",
+  "created": "2026-07-01",
+  "generator": "GTI15 ComfyUI via generate_natural_blog_candidates.py",
+  "endpoint_host": "gti15 redacted direct endpoint",
+  "dimensions": "1536x864",
+  "accepted_images": [
+    "/images/illustrations/ykp-camp-sunscreen-heat-20260701-1.png",
+    "/images/illustrations/ykp-camp-sunscreen-heat-20260701-2.png",
+    "/images/illustrations/ykp-camp-sunscreen-heat-20260701-3.png",
+    "/images/illustrations/ykp-camp-sunscreen-heat-20260701-4.png",
+    "/images/illustrations/ykp-camp-sunscreen-heat-20260701-5.png"
+  ],
+  "selected_sources": [
+    "pass1/20260701_191843_krea_3730917656.png",
+    "pass1/20260701_191916_realvis_3730917657.png",
+    "pass1/20260701_191931_juggernaut_3730917658.png",
+    "pass2/20260701_191947_krea_36460067.png",
+    "pass2/20260701_192019_realvis_36460068.png"
+  ],
+  "visual_qa": "manual contact-sheet QA passed for selected images; rejected images excluded where applicable"
+}
