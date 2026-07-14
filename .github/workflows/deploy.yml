@@ -23,7 +23,7 @@ jobs:
         env:
           PUBLIC_CF_BEACON_TOKEN: f8f8fdfa802441a49c08bf07d367b29b
           PUBLIC_ADSENSE_CLIENT: ca-pub-3526385510396286
-          PUBLIC_AMAZON_TAG_US: taekm33-20
+          PUBLIC_AMAZON_TAG_US: taekm3302-20
           PUBLIC_AMAZON_TAG_JP: taekm33-22
           PUBLIC_AMAZON_TAG_UK: taekm33-21
           PUBLIC_AMAZON_TAG_CA: taekm330a-20
