@@ -1,0 +1,27 @@
+export const REVIEW_POSTS = [
+  "chodeung-banghak-library-kidscafe-safety-contact-checklist-2026",
+  "eonea-baldal-1seal-jeon",
+  "eorini-allergic-rhinitis-home-environment-2026",
+  "eorini-app-subscription-inapp-purchase-refund-checklist-2026",
+  "eorini-byeonbi-gwanli-baebyeon-routine",
+  "eorini-kogori-sumyeonmuhoheup-sangdam-gijun",
+  "eorini-mulnori-gwi-tongjeung-oeido-yeom-checklist-2026",
+  "eorini-mulnori-hu-gwitong-oeyidoeyeom-checklist-2026",
+  "eorini-sumyeon-toehaeng-gwanli",
+  "eorini-yeoreum-camp-sunscreen-yeoljilhwan-yebang-checklist-2026",
+  "gizojo-tteoki-jangbu",
+  "iyusig-sijag-sigi",
+  "ottoshik-bujangje-jiim",
+  "sinsaengha-hwangdal",
+  "sinsaengha-mokyok-bangbeop",
+  "sinsaengha-sumyeon-paeteon",
+  "yeong-a-anjun-sago-yebang",
+  "yeong-a-balreol-mailseuton",
+  "yeong-a-undeong-baldal",
+  "yeong-yua-atopi-pibu-boseup-mokyok-gwanli",
+  "yeong-yua-car-seat-cha-anyangjeon-2026",
+  "yeong-yua-sumyeon-sigan",
+  "yua-baljeon-sangdam-jilmun-list-2026"
+];
+export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
+export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
