@@ -6,7 +6,7 @@ const siteUrl = import.meta.env.PUBLIC_SITE_URL || 'https://example.com';
 const domain = siteUrl.replace(/^https?:\/\//, '').replace(/\/$/, '');
 const editorEmail = `editor@${domain}`;
 const lang = import.meta.env.PUBLIC_SITE_LANG || 'en';
-const lastUpdated = '2026-05-08';
+const lastUpdated = '2026-08-08';
 ---
 
 <BaseLayout
@@ -29,7 +29,7 @@ const lastUpdated = '2026-05-08';
         <>
           <section>
             <p class="text-lg leading-relaxed border-l-4 border-accent pl-5 italic text-foreground/80">
-              {siteName}는 일부 콘텐츠에 제휴(affiliate) 링크를 포함합니다. 독자가 해당 링크를 통해 제품·서비스를 구매하면, 본 매체는 판매자로부터 일정한 수수료를 받을 수 있습니다. <strong>이 수수료는 독자가 지불하는 가격에 영향을 주지 않습니다.</strong>
+              {siteName}는 일부 콘텐츠에 제휴(affiliate) 링크를 포함합니다. 독자가 해당 링크를 통해 제품·서비스를 구매하면, 본 매체는 판매자로부터 일정한 수수료를 받을 수 있습니다. <strong>이 수수료는 독자가 지불하는 가격에 영향을 주지 않습니다.</strong><br /><strong>As an Amazon Associate I earn from qualifying purchases.</strong>
             </p>
           </section>
 
@@ -58,7 +58,7 @@ const lastUpdated = '2026-05-08';
             <h2 class="text-2xl font-bold mb-3" style="font-family: var(--font-display);">3. 표시 방법</h2>
             <p>제휴 링크가 포함된 글에는 본문 또는 글머리에 안내가 표시됩니다. 또한 모든 페이지의 푸터에는 다음 문구가 항상 노출됩니다.</p>
             <blockquote class="border-l-4 border-muted pl-5 my-4 text-foreground/70 italic">
-              "쿠팡파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다."
+              "쿠팡파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다. As an Amazon Associate I earn from qualifying purchases."
             </blockquote>
           </section>
 
@@ -126,7 +126,7 @@ const lastUpdated = '2026-05-08';
             <h2 class="text-2xl font-bold mb-3" style="font-family: var(--font-display);">1. Affiliate Programs We Participate In</h2>
             <p>{siteName} is a participant in or may participate in the following affiliate programs:</p>
             <ul class="list-disc pl-6 space-y-1 mt-3">
-              <li><strong>Amazon Associates Program</strong> — As an Amazon Associate, we earn from qualifying purchases.</li>
+              <li><strong>Amazon Associates Program</strong> — As an Amazon Associate I earn from qualifying purchases.</li>
               <li><strong>Skimlinks / VigLink / Sovrn Commerce</strong> — Aggregated affiliate networks for retail products</li>
               <li><strong>Direct affiliate partners</strong> — Topic-relevant brands that meet our editorial standards</li>
             </ul>
@@ -147,7 +147,7 @@ const lastUpdated = '2026-05-08';
             <h2 class="text-2xl font-bold mb-3" style="font-family: var(--font-display);">3. FTC Compliance</h2>
             <p>This disclosure is provided in accordance with the U.S. Federal Trade Commission's <a href="https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers" class="underline">Endorsement Guides (16 CFR Part 255)</a>. The disclosure also appears in the footer of every page:</p>
             <blockquote class="border-l-4 border-muted pl-5 my-4 text-foreground/70 italic">
-              "As an Amazon Associate and other affiliate partner, we earn from qualifying purchases."
+              "As an Amazon Associate I earn from qualifying purchases. Other affiliate partnerships may also generate commissions."
             </blockquote>
           </section>
 
