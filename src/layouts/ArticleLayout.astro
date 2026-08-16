@@ -151,7 +151,7 @@ const locale = localeMap[lang] || 'en-US';
     <ReadingTools title={title} description={description} url={Astro.url.pathname} category={category || '육아'} />
 
     <div class="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_280px] gap-10 lg:gap-12">
-      <div class="prose-article min-w-0">
+      <div class="prose-article min-w-0 w-full max-w-full">
         <slot />
         {sources.length > 0 && <References sources={sources} />}
       </div>
@@ -173,8 +173,8 @@ const locale = localeMap[lang] || 'en-US';
         </div>
         <ul class="grid gap-3 sm:grid-cols-2">
           {internalLinks.map((link) => (
-            <li>
-              <a href={link} class="group flex min-h-12 items-center justify-between gap-3 rounded-2xl border border-border/70 bg-background px-4 py-3 text-sm font-semibold text-foreground/80 no-underline shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:text-primary hover:shadow-md focus-visible:outline-ring">
+            <li class="min-w-0">
+              <a href={link} class="group flex min-w-0 w-full min-h-12 items-center justify-between gap-3 rounded-2xl border border-border/70 bg-background px-4 py-3 text-sm font-semibold text-foreground/80 no-underline shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:text-primary hover:shadow-md focus-visible:outline-ring">
                 <span class="truncate font-mono text-xs sm:text-sm">{link}</span>
                 <span class="shrink-0 text-primary transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
               </a>
