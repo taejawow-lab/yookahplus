@@ -21,7 +21,8 @@ export const REVIEW_POSTS = [
   "yeong-yua-atopi-pibu-boseup-mokyok-gwanli",
   "yeong-yua-car-seat-cha-anyangjeon-2026",
   "yeong-yua-sumyeon-sigan",
-  "yua-baljeon-sangdam-jilmun-list-2026"
+  "yua-baljeon-sangdam-jilmun-list-2026",
+  "eorini-banghak-gyoyuk-app-gaeinjeongbo-gwonhan-checklist-2026",
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

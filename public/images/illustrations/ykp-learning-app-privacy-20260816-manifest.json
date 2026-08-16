@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-08-16",
+  "backend": "GTI15 ComfyUI",
+  "workflow": "generate_image",
+  "assets": [
+    {
+      "filename": "ykp-learning-app-privacy-20260816-hero.png",
+      "source_filename": "ComfyUI_00041_.png",
+      "prompt_id": "7cfe1256-cd99-476f-96e6-250081f75146",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "ykp-learning-app-privacy-20260816-01.png",
+      "source_filename": "ComfyUI_00054_.png",
+      "prompt_id": "25ac3b78-e063-413d-b909-624286f30cbb",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "ykp-learning-app-privacy-20260816-02.png",
+      "source_filename": "ComfyUI_00053_.png",
+      "prompt_id": "6e11ceb4-f681-4b17-a38d-beeae29b3c2b",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "ykp-learning-app-privacy-20260816-03.png",
+      "source_filename": "ComfyUI_00044_.png",
+      "prompt_id": "03f28659-1bee-4ea1-9515-c29f289ddd74",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "ykp-learning-app-privacy-20260816-04.png",
+      "source_filename": "ComfyUI_00045_.png",
+      "prompt_id": "0245152e-75da-458e-85e9-271ba427bdd8",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "ykp-learning-app-privacy-20260816-05.png",
+      "source_filename": "ComfyUI_00028_.png",
+      "prompt_id": "c9b09d1b-5320-4a16-a9b1-97211e9165d9",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    }
+  ],
+  "qa": "final contact-sheet visual review passed after replacements on 2026-08-16"
+}
