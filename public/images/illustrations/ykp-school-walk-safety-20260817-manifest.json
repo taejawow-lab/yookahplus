@@ -1,0 +1,142 @@
+{
+  "site": "yookahplus",
+  "slug": "chodeung-saehakki-tonghakro-bohaeng-anjeon-checklist-2026",
+  "date": "2026-08-17",
+  "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "filename": "ykp-school-walk-safety-20260817-hero.png",
+      "file": "public/images/illustrations/ykp-school-walk-safety-20260817-hero.png",
+      "prompt": "minimal studio product still life containing one folded solid orange raincoat, one closed solid blue umbrella, one pair of plain yellow walking shoes and two reflective fabric strips, nothing else",
+      "negative_prompt": "readable text, typography, words, letters, numbers, logo, watermark, brand, screen, user interface, keyboard, document, form, receipt, passport, identification card, boarding pass, QR code, barcode, official seal, currency, calculator, camera, people, person, human, child, hands, face, body, vehicle, license plate, road sign, distorted object, duplicate object, unsafe road, cartoon, illustration",
+      "prompt_id": "d65256c2-ace6-4b0d-92dc-584135363863",
+      "seed": 202608172502,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1369632,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_regen3_yookahplus_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "ykp-school-walk-safety-20260817-01.png",
+      "file": "public/images/illustrations/ykp-school-walk-safety-20260817-01.png",
+      "prompt": "minimal studio tabletop composition of smooth unmarked beige wooden strips making two separate abstract paths, three red round wooden tokens and three green round wooden tokens, nothing else",
+      "negative_prompt": "readable text, typography, words, letters, numbers, logo, watermark, brand, screen, user interface, keyboard, document, form, receipt, passport, identification card, boarding pass, QR code, barcode, official seal, currency, calculator, camera, people, person, human, child, hands, face, body, vehicle, license plate, road sign, distorted object, duplicate object, unsafe road, cartoon, illustration",
+      "prompt_id": "de86c893-4cee-4639-b246-4cd2c2981ad8",
+      "seed": 202608172503,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1549491,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_regen3_yookahplus_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "ykp-school-walk-safety-20260817-02.png",
+      "file": "public/images/illustrations/ykp-school-walk-safety-20260817-02.png",
+      "prompt": "studio tabletop sidewalk continuity comparison using only beige wooden strips and colored blocks, one continuous path and one interrupted path with a clear alternate connection, plain background",
+      "negative_prompt": "readable text, typography, words, letters, numbers, logo, watermark, brand, screen, user interface, keyboard, document, form, receipt, passport, identification card, boarding pass, QR code, barcode, official seal, currency, calculator, camera, people, person, human, child, hands, face, body, vehicle, license plate, road sign, distorted object, duplicate object, unsafe road, cartoon, illustration",
+      "prompt_id": "aec7a167-e6be-4f6b-8145-bd42a80a3403",
+      "seed": 202608172105,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1264961,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_regen2_yookahplus_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "ykp-school-walk-safety-20260817-03.png",
+      "file": "public/images/illustrations/ykp-school-walk-safety-20260817-03.png",
+      "prompt": "rainy school commute preparation still life with closed umbrella, bright plain raincoat, nonslip shoes and backpack, no people, no logos, no text",
+      "negative_prompt": "readable text, words, letters, numbers, logos, watermark, brand marks, fake user interface, screen content, QR code, barcode, official seal, form, receipt, passport, boarding pass, currency, calculator, hands, people, faces, distorted object, duplicate object, bad anatomy, low resolution, illustration, cartoon, unsafe scene",
+      "prompt_id": "1ea048cd-e97a-47c2-8915-fd36f28c0661",
+      "seed": 202608170022,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1847940,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_yookahplus_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "ykp-school-walk-safety-20260817-04.png",
+      "file": "public/images/illustrations/ykp-school-walk-safety-20260817-04.png",
+      "prompt": "minimal studio overhead still life containing six completely blank white cards, two reflective fabric ribbons, one pair of plain walking shoes and four smooth colored wooden tokens, nothing else",
+      "negative_prompt": "readable text, typography, words, letters, numbers, logo, watermark, brand, screen, user interface, keyboard, document, form, receipt, passport, identification card, boarding pass, QR code, barcode, official seal, currency, calculator, camera, people, person, human, child, hands, face, body, vehicle, license plate, road sign, distorted object, duplicate object, unsafe road, cartoon, illustration",
+      "prompt_id": "cd48e793-97d6-4aef-b1eb-e1ab1517a63d",
+      "seed": 202608172504,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1533065,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_regen3_yookahplus_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "ykp-school-walk-safety-20260817-05.png",
+      "file": "public/images/illustrations/ykp-school-walk-safety-20260817-05.png",
+      "prompt": "studio tabletop school handoff metaphor using only a simple wooden gate shape, two separated colored waiting zones, one plain closed lunch pouch and smooth tokens, no backpack, no school interior",
+      "negative_prompt": "readable text, typography, words, letters, numbers, logo, watermark, brand, screen, user interface, keyboard, document, form, receipt, passport, identification card, boarding pass, QR code, barcode, official seal, currency, calculator, camera, people, person, human, child, hands, face, body, vehicle, license plate, road sign, distorted object, duplicate object, unsafe road, cartoon, illustration",
+      "prompt_id": "3c054b6f-06a3-4088-9651-68faa4de217b",
+      "seed": 202608172107,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1456973,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_regen2_yookahplus_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260817-yookahplus-contact-sheet-final3.jpg",
+  "qa_status": "PASSED",
+  "accepted_count": 6,
+  "rejected_excluded": []
+}
