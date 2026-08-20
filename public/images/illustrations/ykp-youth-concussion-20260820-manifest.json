@@ -1,0 +1,129 @@
+{
+  "site": "yookahplus",
+  "slug": "eorini-seupoceu-noejintang-uishim-24sigan-haengdong-checklist-2026",
+  "date": "2026-08-20",
+  "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "filename": "ykp-youth-concussion-20260820-hero.png",
+      "file": "public/images/illustrations/ykp-youth-concussion-20260820-hero.png",
+      "prompt": "youth sports concussion safety editorial still life in an empty indoor gym, plain protective helmet beside a soft sports ball and folded towel on a clean wooden bench, calm natural window light, realistic stock photography, no people, no faces, no hands, no text, no logos, no labels, no screens, no documents",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "prompt_id": "900bb221-9bd4-43a0-b008-7fcc2babe839",
+      "seed": 1261746691,
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "engine": "krea",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1426066,
+      "accepted": true,
+      "transform": null,
+      "visual_qa": "PASS: final accepted-set visual review; no readable text/logo/UI/people/hands/faces/document artifact or unsafe/topic mismatch"
+    },
+    {
+      "filename": "ykp-youth-concussion-20260820-01.png",
+      "file": "public/images/illustrations/ykp-youth-concussion-20260820-01.png",
+      "prompt": "empty school gym sideline bench with one plain matte protective sports helmet and folded solid-color towel, no ball and no bottle, realistic natural window light, physically plausible editorial stock photo, completely unbranded surfaces, no people, no faces, no hands, no body, no text, no letters, no numbers, no symbols, no logos, no labels, no screens, no papers, no documents",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "prompt_id": "8dcf1a85-c478-4812-b719-d22ba030e018",
+      "seed": 3529868062,
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "engine": "krea",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1550445,
+      "accepted": true,
+      "transform": null,
+      "visual_qa": "PASS: final accepted-set visual review; no readable text/logo/UI/people/hands/faces/document artifact or unsafe/topic mismatch"
+    },
+    {
+      "filename": "ykp-youth-concussion-20260820-02.png",
+      "file": "public/images/illustrations/ykp-youth-concussion-20260820-02.png",
+      "prompt": "sparse quiet recovery bedroom containing only a neatly made bed with plain solid pillows and one simple floor lamp, bare walls and empty surfaces, realistic calm editorial stock photo, no windowsill objects, no table, no water, no bottle, no medicine, no notebook, no pen, no books, no people, no faces, no hands, no text, no letters, no numbers, no logos, no labels, no screens, no papers, no documents",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "prompt_id": "c792f133-8e12-43dd-9a68-10370d5e8330",
+      "seed": 665439938,
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "engine": "krea",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 964951,
+      "accepted": true,
+      "transform": "cropped to x=600..1536,y=0..526 and resized proportionally to 1536x864 to exclude rejected books/notebook",
+      "visual_qa": "PASS: final accepted-set visual review; no readable text/logo/UI/people/hands/faces/document artifact or unsafe/topic mismatch"
+    },
+    {
+      "filename": "ykp-youth-concussion-20260820-03.png",
+      "file": "public/images/illustrations/ykp-youth-concussion-20260820-03.png",
+      "prompt": "tight close-up of plain noise reducing earmuffs beside three fully closed solid-color unbranded hardback books on an otherwise completely bare library table, simple lamp in soft background, realistic editorial stock photo, no loose pages, no open book, no computer, no people, no faces, no hands, no text, no letters, no numbers, no symbols, no logos, no labels, no screens, no papers, no documents",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "prompt_id": "72a5151f-d964-41ca-9f31-f653fa6fab85",
+      "seed": 3495675348,
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "engine": "krea",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1494427,
+      "accepted": true,
+      "transform": null,
+      "visual_qa": "PASS: final accepted-set visual review; no readable text/logo/UI/people/hands/faces/document artifact or unsafe/topic mismatch"
+    },
+    {
+      "filename": "ykp-youth-concussion-20260820-04.png",
+      "file": "public/images/illustrations/ykp-youth-concussion-20260820-04.png",
+      "prompt": "gradual return to activity concept in empty indoor gym, six solid-color round foam stepping pads arranged in a gentle path toward one plain unbranded sports helmet, no markings on pads, realistic natural light, physically plausible editorial stock photo, no people, no faces, no hands, no text, no letters, no numbers, no symbols, no logos, no labels, no signs, no papers, no screens",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "prompt_id": "a341ba5e-a102-48d9-844a-799178f9c687",
+      "seed": 2777083156,
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "engine": "krea",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1388180,
+      "accepted": true,
+      "transform": null,
+      "visual_qa": "PASS: final accepted-set visual review; no readable text/logo/UI/people/hands/faces/document artifact or unsafe/topic mismatch"
+    },
+    {
+      "filename": "ykp-youth-concussion-20260820-05.png",
+      "file": "public/images/illustrations/ykp-youth-concussion-20260820-05.png",
+      "prompt": "care team coordination concept as a clean still life, three closed solid-color storage boxes with plain lids arranged beside one matte unbranded sports helmet on a wooden table, realistic editorial photography, no folders, no paper, no bags, no people, no faces, no hands, no text, no letters, no numbers, no symbols, no logos, no labels, no screens, no documents",
+      "negative_prompt": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "prompt_id": "7127bb5b-d893-46fa-ba88-215a3a2bb460",
+      "seed": 561041966,
+      "checkpoint": "flux1-krea-dev_fp8_scaled.safetensors",
+      "engine": "krea",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1378346,
+      "accepted": true,
+      "transform": null,
+      "visual_qa": "PASS: final accepted-set visual review; no readable text/logo/UI/people/hands/faces/document artifact or unsafe/topic mismatch"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/ykp-youth-concussion-20260820-contact-sheet-final.jpg",
+  "qa_status": "PASSED",
+  "accepted_count": 6,
+  "rejected_excluded": [
+    "initial slots 02-06",
+    "final2 slots 03-04",
+    "final3 slot 03",
+    "uncropped final4 slot 03"
+  ]
+}
