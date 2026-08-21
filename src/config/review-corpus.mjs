@@ -25,6 +25,7 @@ export const REVIEW_POSTS = [
   "eorini-banghak-gyoyuk-app-gaeinjeongbo-gwonhan-checklist-2026",
   "chodeung-saehakki-tonghakro-bohaeng-anjeon-checklist-2026",
   "eorini-seupoceu-noejintang-uishim-24sigan-haengdong-checklist-2026",
+  "eorini-cheonsik-hakgyo-bisang-haengdong-gyehoek-checklist-2026",
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

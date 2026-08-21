@@ -1,0 +1,125 @@
+{
+  "run_date": "2026-08-21",
+  "site": "yookahplus",
+  "prefix": "ykp-school-asthma-20260821",
+  "backend": "GTI15 ComfyUI",
+  "publish_policy": "Final selected assets only; contact-sheet visual QA passed.",
+  "accepted": [
+    {
+      "prompt_id": "e22b2d64-aba5-41ae-9ca5-af57b0b15146",
+      "remote": {
+        "filename": "gti15_natural_krea_00634_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\yookahplus-e\\20260821_194149_krea_2882583599.png",
+      "bytes": 1725543,
+      "seconds": 32,
+      "engine": "krea",
+      "seed": 2882583599,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "yookahplus-e",
+      "selected_index": 0,
+      "published_file": "ykp-school-asthma-20260821-hero.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "12f6b5c1-8dcf-4800-9c90-f79be86bdcdd",
+      "remote": {
+        "filename": "gti15_natural_realvis_00362_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\yookahplus-e\\20260821_194222_realvis_2882583600.png",
+      "bytes": 1517682,
+      "seconds": 15,
+      "engine": "realvis",
+      "seed": 2882583600,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "yookahplus-e",
+      "selected_index": 1,
+      "published_file": "ykp-school-asthma-20260821-01.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "f34dd393-a4da-4f0d-80e8-45740345b8ff",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00321_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\yookahplus-e\\20260821_194237_juggernaut_2882583601.png",
+      "bytes": 1193825,
+      "seconds": 15,
+      "engine": "juggernaut",
+      "seed": 2882583601,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "yookahplus-e",
+      "selected_index": 2,
+      "published_file": "ykp-school-asthma-20260821-02.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "dc36b7fe-0000-43c7-91ef-e1cbb1bcd935",
+      "remote": {
+        "filename": "gti15_natural_realvis_00363_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\yookahplus-f\\20260821_194326_realvis_3476365869.png",
+      "bytes": 1684302,
+      "seconds": 15,
+      "engine": "realvis",
+      "seed": 3476365869,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "yookahplus-f",
+      "selected_index": 1,
+      "published_file": "ykp-school-asthma-20260821-03.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "e6e6bee0-214d-4887-85c3-617a3ea7e23e",
+      "remote": {
+        "filename": "gti15_natural_realvis_00364_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\yookahplus-g\\20260821_194430_realvis_115313670.png",
+      "bytes": 1564260,
+      "seconds": 15,
+      "engine": "realvis",
+      "seed": 115313670,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "yookahplus-g",
+      "selected_index": 1,
+      "published_file": "ykp-school-asthma-20260821-04.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "38041aa7-a34d-4ca7-ad23-eb95a9155c28",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00323_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\yookahplus-g\\20260821_194445_juggernaut_115313671.png",
+      "bytes": 1302734,
+      "seconds": 15,
+      "engine": "juggernaut",
+      "seed": 115313671,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "yookahplus-g",
+      "selected_index": 2,
+      "published_file": "ykp-school-asthma-20260821-05.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    }
+  ],
+  "rejected_candidates_excluded": true,
+  "published_count": 6
+}
