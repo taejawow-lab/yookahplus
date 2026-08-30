@@ -28,6 +28,7 @@ export const REVIEW_POSTS = [
   "eorini-cheonsik-hakgyo-bisang-haengdong-gyehoek-checklist-2026",
   "eorini-yeonggu-chi-talguch-eunggeup-daeeung-checklist-2026",
   "eorini-kopi-eunggeupcheochi-byeongwon-gijun-checklist-2026",
+  "eorini-beol-ssowim-anaphylaxis-eunggeupcheochi-checklist-2026",
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

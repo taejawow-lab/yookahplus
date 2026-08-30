@@ -1,0 +1,64 @@
+{
+  "site": "yookahplus",
+  "article": "eorini-beol-ssowim-anaphylaxis-eunggeupcheochi-checklist-2026.mdx",
+  "accepted": [
+    {
+      "index": 0,
+      "published_url": "/images/illustrations/ykp-bee-sting-20260830-hero.png",
+      "engine": "krea",
+      "seed": 2026083100,
+      "prompt_id": "eac5e239-5095-42b6-b179-4e64e974fd3e",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_213149_krea_2026083100.png",
+      "visual_qa": "accepted_2026-08-30"
+    },
+    {
+      "index": 1,
+      "published_url": "/images/illustrations/ykp-bee-sting-20260830-01.png",
+      "engine": "realvis",
+      "seed": 2026087011,
+      "prompt_id": "ac81d378-1f0f-4570-bf97-853d566af390",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_215556_realvis_2026087011.png",
+      "visual_qa": "accepted_2026-08-30"
+    },
+    {
+      "index": 2,
+      "published_url": "/images/illustrations/ykp-bee-sting-20260830-02.png",
+      "engine": "krea",
+      "seed": 2026083102,
+      "prompt_id": "419552c8-534d-42b0-b43d-3106a982309f",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_213216_krea_2026083102.png",
+      "visual_qa": "accepted_2026-08-30"
+    },
+    {
+      "index": 3,
+      "published_url": "/images/illustrations/ykp-bee-sting-20260830-03.png",
+      "engine": "krea",
+      "seed": 2026083103,
+      "prompt_id": "efce9f2a-3482-4da0-86ed-6a47c51084ce",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_213229_krea_2026083103.png",
+      "visual_qa": "accepted_2026-08-30"
+    },
+    {
+      "index": 4,
+      "published_url": "/images/illustrations/ykp-bee-sting-20260830-04.png",
+      "engine": "realvis",
+      "seed": 2026087014,
+      "prompt_id": "fa7dd4d2-77b3-481e-9f16-f65af584469a",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_215603_realvis_2026087014.png",
+      "visual_qa": "accepted_2026-08-30"
+    }
+  ],
+  "accepted_count": 5,
+  "contact_sheet_qa": "batch-d-20260830 final contact sheet visually inspected; rejected generations excluded",
+  "generated_at": "2026-08-30"
+}
