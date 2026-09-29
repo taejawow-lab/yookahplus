@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-09-30T01:30:00+09:00",
+  "site_repair": "yookahplus-ottoshik-bujangje-jiim",
+  "visual_qa": "PASS",
+  "assets": [
+    {
+      "prompt_id": "d63b4a17-4d8e-4cfb-be39-f28f4a0f1fbc",
+      "remote": {
+        "filename": "gti15_natural_realvis_00503_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_natural_candidates\\ykp-supplement-repair3\\20260930_011537_realvis_2374858243.png",
+      "bytes": 1434092,
+      "seconds": 18,
+      "engine": "realvis",
+      "seed": 2374858243,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "final_filename": "articles/ottoshik-bujangje-jiim/hero.png",
+      "qa_note": "Parent visual QA passed; topic-relevant, plausible, and free of prohibited text/UI/logos/people/unsafe supplement details."
+    },
+    {
+      "prompt_id": "d051d38d-3c2d-48a5-bc94-dd0ee307eecb",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00414_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_natural_candidates\\ykp-supplement-repair3\\20260930_011555_juggernaut_2374858244.png",
+      "bytes": 1355131,
+      "seconds": 18,
+      "engine": "juggernaut",
+      "seed": 2374858244,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "final_filename": "articles/ottoshik-bujangje-jiim/fig-1.png",
+      "qa_note": "Parent visual QA passed; topic-relevant, plausible, and free of prohibited text/UI/logos/people/unsafe supplement details."
+    },
+    {
+      "prompt_id": "67bf48fe-b58f-48e6-a805-8366420b23af",
+      "remote": {
+        "filename": "gti15_natural_realvis_00506_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_natural_candidates\\ykp-supplement-repair6\\20260930_012923_realvis_2245491217.png",
+      "bytes": 1915149,
+      "seconds": 19,
+      "engine": "realvis",
+      "seed": 2245491217,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "final_filename": "articles/ottoshik-bujangje-jiim/fig-2.png",
+      "qa_note": "Parent visual QA passed; topic-relevant, plausible, and free of prohibited text/UI/logos/people/unsafe supplement details."
+    },
+    {
+      "prompt_id": "b5ba0a44-cbd0-4277-91f2-30b0257cb7ea",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00413_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_natural_candidates\\ykp-supplement-repair2\\20260930_011412_juggernaut_4170683390.png",
+      "bytes": 1102234,
+      "seconds": 18,
+      "engine": "juggernaut",
+      "seed": 4170683390,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "final_filename": "illustrations/children-supplement-food-first-bowls.png",
+      "qa_note": "Parent visual QA passed; topic-relevant, plausible, and free of prohibited text/UI/logos/people/unsafe supplement details."
+    },
+    {
+      "prompt_id": "38ecbc97-3876-4ed3-94d0-0674c3133d2b",
+      "remote": {
+        "filename": "gti15_natural_realvis_00505_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\gti15_natural_candidates\\ykp-supplement-repair5\\20260930_012640_realvis_2493358497.png",
+      "bytes": 1438128,
+      "seconds": 18,
+      "engine": "realvis",
+      "seed": 2493358497,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "final_filename": "illustrations/children-supplement-pantry-inventory.png",
+      "qa_note": "Parent visual QA passed for pantry-inventory use; image shows food storage only and is not used as evidence of locked supplement storage."
+    }
+  ],
+  "contact_sheet": "ykp-children-supplement-repair-20260930-contact-sheet-final.jpg",
+  "rejected_candidates_excluded": true
+}
